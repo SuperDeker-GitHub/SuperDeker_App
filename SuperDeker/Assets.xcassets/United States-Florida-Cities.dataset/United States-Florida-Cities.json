@@ -1,0 +1,1667 @@
+[
+{
+"id": "43588",
+"name": "Alachua",
+"state_id": "3930"
+},
+{
+"id": "43589",
+"name": "Altamonte Springs",
+"state_id": "3930"
+},
+{
+"id": "43590",
+"name": "Apopka",
+"state_id": "3930"
+},
+{
+"id": "43591",
+"name": "Atlantic Beach",
+"state_id": "3930"
+},
+{
+"id": "43592",
+"name": "Auburndale",
+"state_id": "3930"
+},
+{
+"id": "43593",
+"name": "Aventura",
+"state_id": "3930"
+},
+{
+"id": "43594",
+"name": "Avon Park",
+"state_id": "3930"
+},
+{
+"id": "43595",
+"name": "Azalea Park",
+"state_id": "3930"
+},
+{
+"id": "43596",
+"name": "Bal Harbour",
+"state_id": "3930"
+},
+{
+"id": "43597",
+"name": "Bartow",
+"state_id": "3930"
+},
+{
+"id": "43598",
+"name": "Bayonet Point",
+"state_id": "3930"
+},
+{
+"id": "43599",
+"name": "Bayshore Gardens",
+"state_id": "3930"
+},
+{
+"id": "43600",
+"name": "Beach",
+"state_id": "3930"
+},
+{
+"id": "43601",
+"name": "Bellair-Meadowbrook Terrace",
+"state_id": "3930"
+},
+{
+"id": "43602",
+"name": "Belle Glade",
+"state_id": "3930"
+},
+{
+"id": "43603",
+"name": "Bellview",
+"state_id": "3930"
+},
+{
+"id": "43604",
+"name": "Beverly Hills",
+"state_id": "3930"
+},
+{
+"id": "43605",
+"name": "Bloomingdale",
+"state_id": "3930"
+},
+{
+"id": "43606",
+"name": "Boca Raton",
+"state_id": "3930"
+},
+{
+"id": "43607",
+"name": "Boca del Mar",
+"state_id": "3930"
+},
+{
+"id": "43608",
+"name": "Bonita Springs",
+"state_id": "3930"
+},
+{
+"id": "43609",
+"name": "Boynton Beach",
+"state_id": "3930"
+},
+{
+"id": "43610",
+"name": "Bradenton",
+"state_id": "3930"
+},
+{
+"id": "43611",
+"name": "Brandon",
+"state_id": "3930"
+},
+{
+"id": "43612",
+"name": "Brent",
+"state_id": "3930"
+},
+{
+"id": "43613",
+"name": "Brooksville",
+"state_id": "3930"
+},
+{
+"id": "43614",
+"name": "Brownsville",
+"state_id": "3930"
+},
+{
+"id": "43615",
+"name": "Buena Ventura Lakes",
+"state_id": "3930"
+},
+{
+"id": "43616",
+"name": "Bunnell",
+"state_id": "3930"
+},
+{
+"id": "43617",
+"name": "Callaway",
+"state_id": "3930"
+},
+{
+"id": "43618",
+"name": "Cape Coral",
+"state_id": "3930"
+},
+{
+"id": "43619",
+"name": "Carol City",
+"state_id": "3930"
+},
+{
+"id": "43620",
+"name": "Casselberry",
+"state_id": "3930"
+},
+{
+"id": "43621",
+"name": "Catalina Foothills",
+"state_id": "3930"
+},
+{
+"id": "43622",
+"name": "Celebration",
+"state_id": "3930"
+},
+{
+"id": "43623",
+"name": "Century Village",
+"state_id": "3930"
+},
+{
+"id": "43624",
+"name": "Citrus Park",
+"state_id": "3930"
+},
+{
+"id": "43625",
+"name": "Clearwater",
+"state_id": "3930"
+},
+{
+"id": "43626",
+"name": "Clermont",
+"state_id": "3930"
+},
+{
+"id": "43627",
+"name": "Cocoa",
+"state_id": "3930"
+},
+{
+"id": "43628",
+"name": "Cocoa Beach",
+"state_id": "3930"
+},
+{
+"id": "43629",
+"name": "Coconut Creek",
+"state_id": "3930"
+},
+{
+"id": "43630",
+"name": "Coconut Grove",
+"state_id": "3930"
+},
+{
+"id": "43631",
+"name": "Conway",
+"state_id": "3930"
+},
+{
+"id": "43632",
+"name": "Cooper City",
+"state_id": "3930"
+},
+{
+"id": "43633",
+"name": "Coral Gables",
+"state_id": "3930"
+},
+{
+"id": "43634",
+"name": "Coral Springs",
+"state_id": "3930"
+},
+{
+"id": "43635",
+"name": "Coral Terrace",
+"state_id": "3930"
+},
+{
+"id": "43636",
+"name": "Cortlandt Manor",
+"state_id": "3930"
+},
+{
+"id": "43637",
+"name": "Country Club",
+"state_id": "3930"
+},
+{
+"id": "43638",
+"name": "Crestview",
+"state_id": "3930"
+},
+{
+"id": "43639",
+"name": "Crystal River",
+"state_id": "3930"
+},
+{
+"id": "43640",
+"name": "Cutler",
+"state_id": "3930"
+},
+{
+"id": "43641",
+"name": "Cutler Ridge",
+"state_id": "3930"
+},
+{
+"id": "43642",
+"name": "Cypress Gardens",
+"state_id": "3930"
+},
+{
+"id": "43643",
+"name": "Cypress Lake",
+"state_id": "3930"
+},
+{
+"id": "43644",
+"name": "Dania",
+"state_id": "3930"
+},
+{
+"id": "43645",
+"name": "Dania Beach",
+"state_id": "3930"
+},
+{
+"id": "43646",
+"name": "Davie",
+"state_id": "3930"
+},
+{
+"id": "43647",
+"name": "Daytona Beach",
+"state_id": "3930"
+},
+{
+"id": "43648",
+"name": "De Bary",
+"state_id": "3930"
+},
+{
+"id": "43649",
+"name": "De Funiak Springs",
+"state_id": "3930"
+},
+{
+"id": "43650",
+"name": "De Land",
+"state_id": "3930"
+},
+{
+"id": "43651",
+"name": "Debary",
+"state_id": "3930"
+},
+{
+"id": "43652",
+"name": "Deer Park",
+"state_id": "3930"
+},
+{
+"id": "43653",
+"name": "Deerfield Beach",
+"state_id": "3930"
+},
+{
+"id": "43654",
+"name": "Del Rio",
+"state_id": "3930"
+},
+{
+"id": "43655",
+"name": "Delray Beach",
+"state_id": "3930"
+},
+{
+"id": "43656",
+"name": "Deltona",
+"state_id": "3930"
+},
+{
+"id": "43657",
+"name": "Destin",
+"state_id": "3930"
+},
+{
+"id": "43658",
+"name": "Doctor Phillips",
+"state_id": "3930"
+},
+{
+"id": "43659",
+"name": "Dora",
+"state_id": "3930"
+},
+{
+"id": "43660",
+"name": "Doral",
+"state_id": "3930"
+},
+{
+"id": "43661",
+"name": "Dundee",
+"state_id": "3930"
+},
+{
+"id": "43662",
+"name": "Dunedin",
+"state_id": "3930"
+},
+{
+"id": "43663",
+"name": "East Lake",
+"state_id": "3930"
+},
+{
+"id": "43664",
+"name": "Edgewater",
+"state_id": "3930"
+},
+{
+"id": "43665",
+"name": "Eglin Air Force Base",
+"state_id": "3930"
+},
+{
+"id": "43666",
+"name": "Egypt Lake-Leto",
+"state_id": "3930"
+},
+{
+"id": "43667",
+"name": "Elfers",
+"state_id": "3930"
+},
+{
+"id": "43668",
+"name": "Englewood",
+"state_id": "3930"
+},
+{
+"id": "43669",
+"name": "Ensley",
+"state_id": "3930"
+},
+{
+"id": "43670",
+"name": "Eustis",
+"state_id": "3930"
+},
+{
+"id": "43671",
+"name": "Fairview Shores",
+"state_id": "3930"
+},
+{
+"id": "43672",
+"name": "Fern Park",
+"state_id": "3930"
+},
+{
+"id": "43673",
+"name": "Fernandina Beach",
+"state_id": "3930"
+},
+{
+"id": "43674",
+"name": "Ferry Pass",
+"state_id": "3930"
+},
+{
+"id": "43675",
+"name": "Flagler Beach",
+"state_id": "3930"
+},
+{
+"id": "43676",
+"name": "Floral City",
+"state_id": "3930"
+},
+{
+"id": "43677",
+"name": "Florida City",
+"state_id": "3930"
+},
+{
+"id": "43678",
+"name": "Florida Ridge",
+"state_id": "3930"
+},
+{
+"id": "43679",
+"name": "Forest City",
+"state_id": "3930"
+},
+{
+"id": "43680",
+"name": "Fort Lauderdale",
+"state_id": "3930"
+},
+{
+"id": "43681",
+"name": "Fort Myers",
+"state_id": "3930"
+},
+{
+"id": "43682",
+"name": "Fort Myers Beach",
+"state_id": "3930"
+},
+{
+"id": "43683",
+"name": "Fort Pierce",
+"state_id": "3930"
+},
+{
+"id": "43684",
+"name": "Fort Walton Beach",
+"state_id": "3930"
+},
+{
+"id": "43685",
+"name": "Freeport",
+"state_id": "3930"
+},
+{
+"id": "43686",
+"name": "Fruitville",
+"state_id": "3930"
+},
+{
+"id": "43687",
+"name": "Ft. Lauderdale",
+"state_id": "3930"
+},
+{
+"id": "43688",
+"name": "Gainesville",
+"state_id": "3930"
+},
+{
+"id": "43689",
+"name": "Gladeview",
+"state_id": "3930"
+},
+{
+"id": "43690",
+"name": "Glenvar Heights",
+"state_id": "3930"
+},
+{
+"id": "43691",
+"name": "Golden Gate",
+"state_id": "3930"
+},
+{
+"id": "43692",
+"name": "Golden Glades",
+"state_id": "3930"
+},
+{
+"id": "43693",
+"name": "Goldenrod",
+"state_id": "3930"
+},
+{
+"id": "43694",
+"name": "Greater Carrollwood",
+"state_id": "3930"
+},
+{
+"id": "43695",
+"name": "Greater Northdale",
+"state_id": "3930"
+},
+{
+"id": "43696",
+"name": "Green Cove Springs",
+"state_id": "3930"
+},
+{
+"id": "43697",
+"name": "Greenacres",
+"state_id": "3930"
+},
+{
+"id": "43698",
+"name": "Gulf Gate Estates",
+"state_id": "3930"
+},
+{
+"id": "43699",
+"name": "Gulfport",
+"state_id": "3930"
+},
+{
+"id": "43700",
+"name": "Haines City",
+"state_id": "3930"
+},
+{
+"id": "43701",
+"name": "Hallandale",
+"state_id": "3930"
+},
+{
+"id": "43702",
+"name": "Hallandale Beach",
+"state_id": "3930"
+},
+{
+"id": "43703",
+"name": "Hammocks",
+"state_id": "3930"
+},
+{
+"id": "43704",
+"name": "Hamptons at Boca Raton",
+"state_id": "3930"
+},
+{
+"id": "43705",
+"name": "Havana",
+"state_id": "3930"
+},
+{
+"id": "43706",
+"name": "Hialeah",
+"state_id": "3930"
+},
+{
+"id": "43707",
+"name": "Hialeah Gardens",
+"state_id": "3930"
+},
+{
+"id": "43708",
+"name": "Highpoint",
+"state_id": "3930"
+},
+{
+"id": "43709",
+"name": "Hobe Sound",
+"state_id": "3930"
+},
+{
+"id": "43710",
+"name": "Holiday",
+"state_id": "3930"
+},
+{
+"id": "43711",
+"name": "Holly Hill",
+"state_id": "3930"
+},
+{
+"id": "43712",
+"name": "Hollywood",
+"state_id": "3930"
+},
+{
+"id": "43713",
+"name": "Homestead",
+"state_id": "3930"
+},
+{
+"id": "43714",
+"name": "Homosassa",
+"state_id": "3930"
+},
+{
+"id": "43715",
+"name": "Hudson",
+"state_id": "3930"
+},
+{
+"id": "43716",
+"name": "Immokalee",
+"state_id": "3930"
+},
+{
+"id": "43717",
+"name": "Inverness",
+"state_id": "3930"
+},
+{
+"id": "43718",
+"name": "Iona",
+"state_id": "3930"
+},
+{
+"id": "43719",
+"name": "Ives Estates",
+"state_id": "3930"
+},
+{
+"id": "43720",
+"name": "Jacksonville",
+"state_id": "3930"
+},
+{
+"id": "43721",
+"name": "Jacksonville Beach",
+"state_id": "3930"
+},
+{
+"id": "43722",
+"name": "Jasmine Estates",
+"state_id": "3930"
+},
+{
+"id": "43723",
+"name": "Jensen Beach",
+"state_id": "3930"
+},
+{
+"id": "43724",
+"name": "Jupiter",
+"state_id": "3930"
+},
+{
+"id": "43725",
+"name": "Kendale Lakes",
+"state_id": "3930"
+},
+{
+"id": "43726",
+"name": "Kendall",
+"state_id": "3930"
+},
+{
+"id": "43727",
+"name": "Kendall West",
+"state_id": "3930"
+},
+{
+"id": "43728",
+"name": "Key Biscayne",
+"state_id": "3930"
+},
+{
+"id": "43729",
+"name": "Key Largo",
+"state_id": "3930"
+},
+{
+"id": "43730",
+"name": "Key West",
+"state_id": "3930"
+},
+{
+"id": "43731",
+"name": "Kings Point",
+"state_id": "3930"
+},
+{
+"id": "43732",
+"name": "Kissimmee",
+"state_id": "3930"
+},
+{
+"id": "43733",
+"name": "Lady Lake",
+"state_id": "3930"
+},
+{
+"id": "43734",
+"name": "Lake Alfred",
+"state_id": "3930"
+},
+{
+"id": "43735",
+"name": "Lake City",
+"state_id": "3930"
+},
+{
+"id": "43736",
+"name": "Lake Lucerne",
+"state_id": "3930"
+},
+{
+"id": "43737",
+"name": "Lake Magdalene",
+"state_id": "3930"
+},
+{
+"id": "43738",
+"name": "Lake Mary",
+"state_id": "3930"
+},
+{
+"id": "43739",
+"name": "Lake Placid",
+"state_id": "3930"
+},
+{
+"id": "43740",
+"name": "Lake Wales",
+"state_id": "3930"
+},
+{
+"id": "43741",
+"name": "Lake Worth",
+"state_id": "3930"
+},
+{
+"id": "43742",
+"name": "Lakeland",
+"state_id": "3930"
+},
+{
+"id": "43743",
+"name": "Lakeland Highlands",
+"state_id": "3930"
+},
+{
+"id": "43744",
+"name": "Lakeside",
+"state_id": "3930"
+},
+{
+"id": "43745",
+"name": "Land O''Lakes",
+"state_id": "3930"
+},
+{
+"id": "43746",
+"name": "Largo",
+"state_id": "3930"
+},
+{
+"id": "43747",
+"name": "Lauderdale Lakes",
+"state_id": "3930"
+},
+{
+"id": "43748",
+"name": "Lauderhill",
+"state_id": "3930"
+},
+{
+"id": "43749",
+"name": "Laurel",
+"state_id": "3930"
+},
+{
+"id": "43750",
+"name": "Lecanto",
+"state_id": "3930"
+},
+{
+"id": "43751",
+"name": "Leesburg",
+"state_id": "3930"
+},
+{
+"id": "43752",
+"name": "Lehigh Acres",
+"state_id": "3930"
+},
+{
+"id": "43753",
+"name": "Leisure City",
+"state_id": "3930"
+},
+{
+"id": "43754",
+"name": "Lighthouse Point",
+"state_id": "3930"
+},
+{
+"id": "43755",
+"name": "Lockhart",
+"state_id": "3930"
+},
+{
+"id": "43756",
+"name": "Longwood",
+"state_id": "3930"
+},
+{
+"id": "43757",
+"name": "Loxahatchee",
+"state_id": "3930"
+},
+{
+"id": "43758",
+"name": "Lutz",
+"state_id": "3930"
+},
+{
+"id": "43759",
+"name": "Lynn Haven",
+"state_id": "3930"
+},
+{
+"id": "43760",
+"name": "Madison",
+"state_id": "3930"
+},
+{
+"id": "43761",
+"name": "Maitland",
+"state_id": "3930"
+},
+{
+"id": "43762",
+"name": "Mango",
+"state_id": "3930"
+},
+{
+"id": "43763",
+"name": "Marathon",
+"state_id": "3930"
+},
+{
+"id": "43764",
+"name": "Marco",
+"state_id": "3930"
+},
+{
+"id": "43765",
+"name": "Margate",
+"state_id": "3930"
+},
+{
+"id": "43766",
+"name": "Medley",
+"state_id": "3930"
+},
+{
+"id": "43767",
+"name": "Melbourne",
+"state_id": "3930"
+},
+{
+"id": "43768",
+"name": "Merritt Island",
+"state_id": "3930"
+},
+{
+"id": "43769",
+"name": "Miami",
+"state_id": "3930"
+},
+{
+"id": "43770",
+"name": "Miami Beach",
+"state_id": "3930"
+},
+{
+"id": "43771",
+"name": "Miami Gardens",
+"state_id": "3930"
+},
+{
+"id": "43772",
+"name": "Miami Lakes",
+"state_id": "3930"
+},
+{
+"id": "43773",
+"name": "Miami Shores",
+"state_id": "3930"
+},
+{
+"id": "43774",
+"name": "Miami Springs",
+"state_id": "3930"
+},
+{
+"id": "43775",
+"name": "Micco",
+"state_id": "3930"
+},
+{
+"id": "43776",
+"name": "Milton",
+"state_id": "3930"
+},
+{
+"id": "43777",
+"name": "Mims",
+"state_id": "3930"
+},
+{
+"id": "43778",
+"name": "Miramar",
+"state_id": "3930"
+},
+{
+"id": "43779",
+"name": "Mulberry",
+"state_id": "3930"
+},
+{
+"id": "43780",
+"name": "Myrtle Grove",
+"state_id": "3930"
+},
+{
+"id": "43781",
+"name": "Naples",
+"state_id": "3930"
+},
+{
+"id": "43782",
+"name": "Naples Park",
+"state_id": "3930"
+},
+{
+"id": "43783",
+"name": "Naranja",
+"state_id": "3930"
+},
+{
+"id": "43784",
+"name": "New Port Richey",
+"state_id": "3930"
+},
+{
+"id": "43785",
+"name": "New Port Richey East",
+"state_id": "3930"
+},
+{
+"id": "43786",
+"name": "New Smyrna Beach",
+"state_id": "3930"
+},
+{
+"id": "43787",
+"name": "Niceville",
+"state_id": "3930"
+},
+{
+"id": "43788",
+"name": "Nokomis",
+"state_id": "3930"
+},
+{
+"id": "43789",
+"name": "Norland",
+"state_id": "3930"
+},
+{
+"id": "43790",
+"name": "North Andrews Gardens",
+"state_id": "3930"
+},
+{
+"id": "43791",
+"name": "North Fort Myers",
+"state_id": "3930"
+},
+{
+"id": "43792",
+"name": "North Lauderdale",
+"state_id": "3930"
+},
+{
+"id": "43793",
+"name": "North Miami",
+"state_id": "3930"
+},
+{
+"id": "43794",
+"name": "North Miami Beach",
+"state_id": "3930"
+},
+{
+"id": "43795",
+"name": "North Naples",
+"state_id": "3930"
+},
+{
+"id": "43796",
+"name": "North Palm Beach",
+"state_id": "3930"
+},
+{
+"id": "43797",
+"name": "North Port",
+"state_id": "3930"
+},
+{
+"id": "43798",
+"name": "Oak Ridge",
+"state_id": "3930"
+},
+{
+"id": "43799",
+"name": "Oakland Park",
+"state_id": "3930"
+},
+{
+"id": "43800",
+"name": "Ocala",
+"state_id": "3930"
+},
+{
+"id": "43801",
+"name": "Ocoee",
+"state_id": "3930"
+},
+{
+"id": "43802",
+"name": "Ojus",
+"state_id": "3930"
+},
+{
+"id": "43803",
+"name": "Okeechobee",
+"state_id": "3930"
+},
+{
+"id": "43804",
+"name": "Oldsmar",
+"state_id": "3930"
+},
+{
+"id": "43805",
+"name": "Olympia Heights",
+"state_id": "3930"
+},
+{
+"id": "43806",
+"name": "Opa-locka",
+"state_id": "3930"
+},
+{
+"id": "43807",
+"name": "Orange City",
+"state_id": "3930"
+},
+{
+"id": "43808",
+"name": "Orange Park",
+"state_id": "3930"
+},
+{
+"id": "43809",
+"name": "Orlando",
+"state_id": "3930"
+},
+{
+"id": "43810",
+"name": "Ormond Beach",
+"state_id": "3930"
+},
+{
+"id": "43811",
+"name": "Ormond-by-the-Sea",
+"state_id": "3930"
+},
+{
+"id": "43812",
+"name": "Osprey",
+"state_id": "3930"
+},
+{
+"id": "43813",
+"name": "Oviedo",
+"state_id": "3930"
+},
+{
+"id": "43814",
+"name": "Palatka",
+"state_id": "3930"
+},
+{
+"id": "43815",
+"name": "Palm Bay",
+"state_id": "3930"
+},
+{
+"id": "43816",
+"name": "Palm Beach",
+"state_id": "3930"
+},
+{
+"id": "43817",
+"name": "Palm Beach Gardens",
+"state_id": "3930"
+},
+{
+"id": "43818",
+"name": "Palm City",
+"state_id": "3930"
+},
+{
+"id": "43819",
+"name": "Palm Coast",
+"state_id": "3930"
+},
+{
+"id": "43820",
+"name": "Palm Harbor",
+"state_id": "3930"
+},
+{
+"id": "43821",
+"name": "Palm River-Clair Mel",
+"state_id": "3930"
+},
+{
+"id": "43822",
+"name": "Palm Valley",
+"state_id": "3930"
+},
+{
+"id": "43823",
+"name": "Palmetto",
+"state_id": "3930"
+},
+{
+"id": "43824",
+"name": "Palmetto Estates",
+"state_id": "3930"
+},
+{
+"id": "43825",
+"name": "Panama City",
+"state_id": "3930"
+},
+{
+"id": "43826",
+"name": "Parkland",
+"state_id": "3930"
+},
+{
+"id": "43827",
+"name": "Pembroke Park",
+"state_id": "3930"
+},
+{
+"id": "43828",
+"name": "Pembroke Pines",
+"state_id": "3930"
+},
+{
+"id": "43829",
+"name": "Pensacola",
+"state_id": "3930"
+},
+{
+"id": "43830",
+"name": "Perrine",
+"state_id": "3930"
+},
+{
+"id": "43831",
+"name": "Pine Castle",
+"state_id": "3930"
+},
+{
+"id": "43832",
+"name": "Pine Hills",
+"state_id": "3930"
+},
+{
+"id": "43833",
+"name": "Pinellas Park",
+"state_id": "3930"
+},
+{
+"id": "43834",
+"name": "Pinewood",
+"state_id": "3930"
+},
+{
+"id": "43835",
+"name": "Plant City",
+"state_id": "3930"
+},
+{
+"id": "43836",
+"name": "Plantation",
+"state_id": "3930"
+},
+{
+"id": "43837",
+"name": "Pompano Beach",
+"state_id": "3930"
+},
+{
+"id": "43838",
+"name": "Pompano Beach Highlands",
+"state_id": "3930"
+},
+{
+"id": "43839",
+"name": "Ponte Vedra",
+"state_id": "3930"
+},
+{
+"id": "43840",
+"name": "Port Charlotte",
+"state_id": "3930"
+},
+{
+"id": "43841",
+"name": "Port Orange",
+"state_id": "3930"
+},
+{
+"id": "43842",
+"name": "Port Saint John",
+"state_id": "3930"
+},
+{
+"id": "43843",
+"name": "Port Saint Lucie",
+"state_id": "3930"
+},
+{
+"id": "43844",
+"name": "Punta Gorda",
+"state_id": "3930"
+},
+{
+"id": "43845",
+"name": "Quincy",
+"state_id": "3930"
+},
+{
+"id": "43846",
+"name": "Redington Shores",
+"state_id": "3930"
+},
+{
+"id": "43847",
+"name": "Richmond Heights",
+"state_id": "3930"
+},
+{
+"id": "43848",
+"name": "Richmond West",
+"state_id": "3930"
+},
+{
+"id": "43849",
+"name": "Riverview",
+"state_id": "3930"
+},
+{
+"id": "43850",
+"name": "Riviera Beach",
+"state_id": "3930"
+},
+{
+"id": "43851",
+"name": "Rockledge",
+"state_id": "3930"
+},
+{
+"id": "43852",
+"name": "Royal Palm Beach",
+"state_id": "3930"
+},
+{
+"id": "43853",
+"name": "Safety Harbor",
+"state_id": "3930"
+},
+{
+"id": "43854",
+"name": "Saint Augustine",
+"state_id": "3930"
+},
+{
+"id": "43855",
+"name": "Saint Cloud",
+"state_id": "3930"
+},
+{
+"id": "43856",
+"name": "Saint Petersburg",
+"state_id": "3930"
+},
+{
+"id": "43857",
+"name": "Saint Petersburg Beach",
+"state_id": "3930"
+},
+{
+"id": "43858",
+"name": "San Carlos Park",
+"state_id": "3930"
+},
+{
+"id": "43859",
+"name": "Sandalfoot Cove",
+"state_id": "3930"
+},
+{
+"id": "43860",
+"name": "Sanford",
+"state_id": "3930"
+},
+{
+"id": "43861",
+"name": "Sanibel",
+"state_id": "3930"
+},
+{
+"id": "43862",
+"name": "Sarasota",
+"state_id": "3930"
+},
+{
+"id": "43863",
+"name": "Sarasota Springs",
+"state_id": "3930"
+},
+{
+"id": "43864",
+"name": "Satellite Beach",
+"state_id": "3930"
+},
+{
+"id": "43865",
+"name": "Scott Lake",
+"state_id": "3930"
+},
+{
+"id": "43866",
+"name": "Sebastian",
+"state_id": "3930"
+},
+{
+"id": "43867",
+"name": "Seminole",
+"state_id": "3930"
+},
+{
+"id": "43868",
+"name": "Shalimar",
+"state_id": "3930"
+},
+{
+"id": "43869",
+"name": "South Bradenton",
+"state_id": "3930"
+},
+{
+"id": "43870",
+"name": "South Daytona",
+"state_id": "3930"
+},
+{
+"id": "43871",
+"name": "South Miami",
+"state_id": "3930"
+},
+{
+"id": "43872",
+"name": "South Miami Heights",
+"state_id": "3930"
+},
+{
+"id": "43873",
+"name": "South Patrick Shores",
+"state_id": "3930"
+},
+{
+"id": "43874",
+"name": "South Venice",
+"state_id": "3930"
+},
+{
+"id": "43875",
+"name": "Spring Hill",
+"state_id": "3930"
+},
+{
+"id": "43876",
+"name": "Stuart",
+"state_id": "3930"
+},
+{
+"id": "43877",
+"name": "Sun City Center",
+"state_id": "3930);"
+},
+{
+"id": "43878",
+"name": "Sunny Isles",
+"state_id": "3930"
+},
+{
+"id": "43879",
+"name": "Sunrise",
+"state_id": "3930"
+},
+{
+"id": "43880",
+"name": "Sunset",
+"state_id": "3930"
+},
+{
+"id": "43881",
+"name": "Sweetwater",
+"state_id": "3930"
+},
+{
+"id": "43882",
+"name": "Tallahassee",
+"state_id": "3930"
+},
+{
+"id": "43883",
+"name": "Tamarac",
+"state_id": "3930"
+},
+{
+"id": "43884",
+"name": "Tamiami",
+"state_id": "3930"
+},
+{
+"id": "43885",
+"name": "Tampa",
+"state_id": "3930"
+},
+{
+"id": "43886",
+"name": "Tarpon Springs",
+"state_id": "3930"
+},
+{
+"id": "43887",
+"name": "Temple Terrace",
+"state_id": "3930"
+},
+{
+"id": "43888",
+"name": "The Crossings",
+"state_id": "3930"
+},
+{
+"id": "43889",
+"name": "The Hammocks",
+"state_id": "3930"
+},
+{
+"id": "43890",
+"name": "Titusville",
+"state_id": "3930"
+},
+{
+"id": "43891",
+"name": "Town''n''Country",
+"state_id": "3930"
+},
+{
+"id": "43892",
+"name": "University",
+"state_id": "3930"
+},
+{
+"id": "43893",
+"name": "University Park",
+"state_id": "3930"
+},
+{
+"id": "43894",
+"name": "Valrico",
+"state_id": "3930"
+},
+{
+"id": "43895",
+"name": "Venice",
+"state_id": "3930"
+},
+{
+"id": "43896",
+"name": "Vero Beach",
+"state_id": "3930"
+},
+{
+"id": "43897",
+"name": "Vero Beach South",
+"state_id": "3930"
+},
+{
+"id": "43898",
+"name": "Villas",
+"state_id": "3930"
+},
+{
+"id": "43899",
+"name": "Warrington",
+"state_id": "3930"
+},
+{
+"id": "43900",
+"name": "Wekiva Springs",
+"state_id": "3930"
+},
+{
+"id": "43901",
+"name": "Wellington",
+"state_id": "3930"
+},
+{
+"id": "43902",
+"name": "Wesley Chapel",
+"state_id": "3930"
+},
+{
+"id": "43903",
+"name": "West Little River",
+"state_id": "3930"
+},
+{
+"id": "43904",
+"name": "West Palm Beach",
+"state_id": "3930"
+},
+{
+"id": "43905",
+"name": "West Park",
+"state_id": "3930"
+},
+{
+"id": "43906",
+"name": "West Pensacola",
+"state_id": "3930"
+},
+{
+"id": "43907",
+"name": "West and East Lealman",
+"state_id": "3930"
+},
+{
+"id": "43908",
+"name": "Westchester",
+"state_id": "3930"
+},
+{
+"id": "43909",
+"name": "Weston",
+"state_id": "3930"
+},
+{
+"id": "43910",
+"name": "Westview",
+"state_id": "3930"
+},
+{
+"id": "43911",
+"name": "Westwood Lakes",
+"state_id": "3930"
+},
+{
+"id": "43912",
+"name": "Wilton Manors",
+"state_id": "3930"
+},
+{
+"id": "43913",
+"name": "Windermere",
+"state_id": "3930"
+},
+{
+"id": "43914",
+"name": "Winston",
+"state_id": "3930"
+},
+{
+"id": "43915",
+"name": "Winter Garden",
+"state_id": "3930"
+},
+{
+"id": "43916",
+"name": "Winter Haven",
+"state_id": "3930"
+},
+{
+"id": "43917",
+"name": "Winter Park",
+"state_id": "3930"
+},
+{
+"id": "43918",
+"name": "Winter Springs",
+"state_id": "3930"
+},
+{
+"id": "43919",
+"name": "Wright",
+"state_id": "3930"
+},
+{
+"id": "43920",
+"name": "Yeehaw Junction",
+"state_id": "3930"
+}
+]

@@ -1,0 +1,248 @@
+{
+	"name":"Countries",
+	"id":8690,
+	"icon":"8690.png",
+	"markericon": "8690.png",
+	"logs":
+	[
+		{ 
+			"Id": 0,
+			"Desc":"Countries",
+			"Icon":"8690.png",
+			"DCs":
+			[
+				{
+					"Code":"COUNTRY",
+					"Desc":"Country",
+					"tituloDossier":"CountryName",
+					"tituloDC": "ShortName - Language",
+					"default":"false",
+					"req":"false",
+					"fotostatus":"noreq",
+					"concomentario":"false",
+					"NoShow":"true",
+					"AutoSave":"true",
+					"read":["administration"],
+					"new": ["administration"],
+					"edit":["administration"],
+					"DcStructure": 
+					[
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Country Name",
+							"rethead":"CountryName",
+							"type":"Edt",
+							"req": "true",
+							"unique":"true",
+							"value":  []
+						},
+						{
+							"desc":"Country Alias",
+							"rethead":"ShortName",
+							"type":"Edt",
+							"req": "true",
+							"value": []
+						},
+						{
+							"desc":"Language",
+							"rethead":"Language",
+							"type":"Spin",
+							"req": "true",
+							"value":
+							[
+								{
+									"desc":"English"
+								},
+								{
+									"desc":"French"
+								},
+								{
+									"desc":"Danish"
+								},
+								{
+									"desc":"Norwegian"
+								},
+								{
+									"desc":"Russian"
+								}
+							]
+						}
+						{
+							"desc":"Comment",
+							"rethead":"Comment",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						}
+					],
+                    "Sellos":
+                    [
+                        {
+                            "desc":"Approved",
+                            "valor":"1",
+                            "src":"assets/sello/Approved.png",
+                            "id":"Approved",
+                            "read":["administrador"],
+                            "new": ["administrador"],
+                            "edit":["administrador"]
+                        },
+                        {
+                            "desc":"Rejected",
+                            "valor":"2",
+                            "src":"assets/sello/Rejected.png",
+                            "id":"Rejected",
+                            "read":["administrador"],
+                            "new": ["administrador"],
+                            "edit":["administrador"]
+                        },
+                        {
+                            "desc":"annulled",
+                            "valor":"-1",
+                            "src":"./assets/sello/annulled.png",
+                            "id":"annulled",
+                            "read":["administrador"],
+                            "new": ["administrador"],
+                            "edit":["administrador"]
+                        }
+                    ]
+				},
+				{
+					"Code":"STATEPROVINCE",
+					"Desc":"State / Province",
+					"tituloDC": "StateProvince ShortDescrip",
+					"default":"false",
+					"req":"false",
+					"fotostatus":"noreq",
+					"concomentario":"false",
+					"NoShow":"false",
+					"AutoSave":"true",
+					"read":["administration"],
+					"new": ["administration"],
+					"edit":["administration"],
+					"DcStructure": 
+					[
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Country",
+							"rethead":"CountryName",
+                            "type":"EdtPR",
+							"Source":"thisDossier.COUNTRY.CountryName",
+                            "req": "true",
+                            "value":[]
+                        },
+						{
+							"desc":"State / Province",
+							"rethead":"StateProvince",
+							"type":"Edt",
+							"req": "true",
+							"value": []
+						},
+						{
+							"desc":"Short Description",
+							"rethead":"ShortDescrip",
+							"type":"Edt",
+							"req": "true",
+							"value": []
+						},
+						{
+							"desc":"Long Description",
+							"rethead":"LongDescrip",
+							"type":"EdtML",
+							"req": "true",
+							"value": []
+						},
+						{
+							"desc":"Comment",
+							"rethead":"Comment",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						}
+					]
+				}
+			]
+		}
+    ]
+}

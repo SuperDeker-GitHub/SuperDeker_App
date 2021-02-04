@@ -1,0 +1,14 @@
+[
+	{
+		"desc":"SELECCIONA EL SINTOMA",
+		"value":""
+	},
+	{
+		"desc":"Compres.o Sist.Parado por Alta Presion de Descarga",
+		"value":"14100-CompresoresSistemaParadoPorAltaPresionDescarga"
+	},
+	{
+		"desc":"Ventiladores/Condensador",
+		"value":"14200-Ventiladores-Condensadores"
+	}
+]

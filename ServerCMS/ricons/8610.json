@@ -1,0 +1,240 @@
+{
+	"name":"Leagues",
+	"id":8610,
+	"icon":"8610.png",
+	"markericon": "8610.png",
+	"logs":
+	[
+		{ 
+			"Id":0,
+			"Desc":"League Rules",
+			"Icon":"8610.png",
+			"DCs":
+			[
+				{
+					"Code":"COUNTRY_LEAGUE",
+					"Desc":"Country League Screen",
+					"tituloDossier":"CountryName",
+					"tituloDC": "CountryName",
+					"default":"false",
+					"req":"false",
+					"fotoreq": "false",
+					"concomentario":"false",
+					"NoShow":"true",
+					"AutoSave":"true",
+					"read":["administration"],
+					"new": ["administration"],
+					"edit":["administration"],
+					"DcStructure": 
+					[
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Country Name",
+							"rethead":"CountryName",
+							"type":"Spin",
+							"req": "true",
+							"Source":"DC.COUNTRY.CountryName",
+							"value": []
+						},
+						{
+							"desc":"Ref Rules Web Link",
+							"rethead":"RefRules",
+							"type":"Edt",
+							"req": "false",
+							"value":[]
+						},
+                        {
+                            "desc":"League Contact",
+                            "rethead":"LeagueContact",
+                            "type":"Edt",
+                            "req": "false",
+                            "value":[]
+                        },
+                        {
+                            "desc":"Mobile Phone Contact",
+                            "rethead":"MobilePhoneContact",
+                            "type":"Telf",
+                            "req": "true",
+                            "value":[]
+                        },
+                        {
+                            "desc":"email @ Contact",
+                            "rethead":"email",
+                            "type":"Email",
+                            "req": "false",
+                            "value":[]
+                        },
+						{
+							"desc":"Observation",
+							"rethead":"Observation",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						}
+					]
+				},
+				{
+                    "Code":"LEAGUELEVEL",
+                    "Desc":"League Level",
+                    "tituloDC": "Level AgeFrom->AgeUpTo",
+                    "default":"false",
+                    "req":"false",
+                    "fotoreq": "false",
+                    "concomentario":"false",
+                    "AutoSave":"true",
+					"read":["administration"],
+					"new": ["administration"],
+					"edit":["administration"],
+                    "DcStructure": 
+                    [
+                        {
+                            "desc":" ",
+                            "rethead":"",
+                            "type":"Txt",
+                            "req": "false",
+                            "value":[]
+                        },
+                        {
+                            "desc":"",
+                            "rethead":"",
+                            "type":"Separator",
+                            "req": "false",
+                            "value":[]
+                        },
+                        {
+                            "desc":" ",
+                            "rethead":"",
+                            "type":"Txt",
+                            "req": "false",
+                            "value":[]
+                        },
+						{
+							"desc":"Country Name",
+							"rethead":"CountryName",
+                            "type":"EdtPR",
+							"Source":"thisDossier.COUNTRY_LEAGUE.CountryName",
+                            "req": "true",
+                            "value":[]
+                        },
+                        {
+                            "desc": "Level",
+                            "rethead": "Level",
+                            "type": "Edt",
+                            "req": "true",
+                            "value": []
+                        },
+                        {
+                            "desc": "Age from",
+                            "rethead": "AgeFrom",
+                            "type": "Num",
+                            "req": "true",
+                            "value": []
+                        },
+                        {
+                            "desc": "Age up to",
+                            "rethead": "AgeUpTo",
+                            "type": "Num",
+                            "req": "true",
+                            "value": []
+                        },	
+                        {
+                            "desc": "Details",
+                            "rethead": "Details",
+                            "type": "EdtML",
+                            "req": "false",
+                            "value": []
+                        },	
+                        {
+                            "desc": "Ref. Link",
+                            "rethead": "RefLink",
+                            "type": "EdtML",
+                            "req": "false",
+                            "value": []
+                        },
+                        {
+                            "desc": "Observation",
+                            "rethead": "Observation",
+                            "type": "EdtML",
+                            "req": "false",
+                            "value": []
+                        },
+                        {
+                            "desc":" ",
+                            "rethead":"",
+                            "type":"Txt",
+                            "req": "false",
+                            "value":[]
+                        },
+                        {
+                            "desc":"",
+                            "rethead":"",
+                            "type":"Separator",
+                            "req": "false",
+                            "value":[]
+                        },
+                        {
+                            "desc":" ",
+                            "rethead":"",
+                            "type":"Txt",
+                            "req": "false",
+                            "value":[]
+                        }
+                    ],
+                    "Sellos":
+                    [
+                        {
+                            "desc":"Annulled",
+                            "valor":"-1",
+                            "src":"assets/sello/Anulada.png",
+                            "id":"Annulled",
+                            "read":["administration"],
+                            "new": ["administration"],
+                            "edit":["administration"]
+                        }
+                    ]
+                }
+			]
+		}
+	]
+}

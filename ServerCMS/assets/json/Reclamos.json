@@ -1,0 +1,10 @@
+[
+    {"desc":"SELECCIONE TIPO DE RECLAMO","value":""},
+    {"desc":"Salud","value":"Salud"},
+    {"desc":"Vida","value":"Vida"},
+    {"desc":"Viajes","value":"Viajes"},
+    {"desc":"Automóvil","value":"Automóvil"},
+    {"desc":"Patrimonio","value":"Patrimonio"},
+    {"desc":"Embalaje en mal Estado","value":"Embalaje en mal Estado"},
+    {"desc":"Falla de Equipo/Parte en Garantía","value":"Falla de Equipo/Parte en Garantía"}
+]

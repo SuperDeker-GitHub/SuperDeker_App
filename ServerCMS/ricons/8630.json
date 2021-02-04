@@ -1,0 +1,394 @@
+{
+	"name":"Glove Brands",
+	"id":8630,
+	"icon":"8630.png",
+	"markericon": "8630.png",
+	"logs":
+	[
+		{ 
+			"Id": 0,
+			"Desc":"Gloves",
+			"Icon":"8630.png",
+			"DCs":
+			[
+				{
+					"Code":"GLOVEBRAND",
+					"Desc":"Glove Brands",
+					"tituloDossier":"GloveBrand",
+					"tituloDC": "GloveBrand",
+					"default":"false",
+					"req":"false",
+					"fotostatus":"noreq",
+					"concomentario":"false",
+					"NoShow":"true",
+					"AutoSave":"true",
+					"read":["administration"],
+					"new": ["administration"],
+					"edit":["administration"],
+					"DcStructure": 
+					[
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Glove Brand",
+							"rethead":"GloveBrand",
+							"type":"Edt",
+							"req": "true",
+							"unique":"true",
+							"value":[]
+						},
+						{
+							"desc":"Short Description",
+							"rethead":"ShortDescription",
+							"type":"Edt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Long Description",
+							"rethead":"LongDescription",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Ref Glove Brand Link",
+							"rethead":"RefGloveBrand",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Contact Person",
+							"rethead":"Contact",
+							"type":"Edt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Mobile Phone",
+							"rethead":"Mobile",
+							"type":"Telf",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"email @",
+							"rethead":"email",
+							"type":"Email",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Observations",
+							"rethead":"Observations",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						}
+					],
+                    "Sellos":
+                    [
+                        {
+                            "desc":"Approved",
+                            "valor":"1",
+                            "src":"assets/sello/Approved.png",
+                            "id":"Approved",
+                            "read":["administrador"],
+                            "new": ["administrador"],
+                            "edit":["administrador"]
+                        },
+                        {
+                            "desc":"Rejected",
+                            "valor":"2",
+                            "src":"assets/sello/Rejected.png",
+                            "id":"Rejected",
+                            "read":["administrador"],
+                            "new": ["administrador"],
+                            "edit":["administrador"]
+                        },
+                        {
+                            "desc":"annulled",
+                            "valor":"-1",
+                            "src":"./assets/sello/annulled.png",
+                            "id":"annulled",
+                            "read":["administrador"],
+                            "new": ["administrador"],
+                            "edit":["administrador"]
+                        }
+                    ]
+				},
+				{
+					"Code":"GLOVEPRODLINE",
+					"Desc":"Glove Product Line",
+					"tituloDC": "GlProductLine",
+					"default":"false",
+					"req":"false",
+					"fotostatus":"noreq",
+					"concomentario":"false",
+					"NoShow":"false",
+					"AutoSave":"true",
+					"read":["administration"],
+					"new": ["administration"],
+					"edit":["administration"],
+					"DcStructure": 
+					[
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Glove Brand",
+							"rethead":"GloveBrand",
+                            "type":"EdtPR",
+							"Source":"thisDossier.GLOVEBRAND.GloveBrand",
+                            "req": "true",
+                            "value":[]
+                        },
+						{
+							"desc":"Glove Product Line",
+							"rethead":"GlProductLine",
+							"type":"Edt",
+							"req": "true",
+							"value":[]
+						},
+						{
+							"desc":"Short Description",
+							"rethead":"ShrtDescription",
+							"type":"Edt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Long Description",
+							"rethead":"LngDescription",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Size",
+							"rethead":"Size",
+							"type":"Check",
+							"req": "true",												
+							"value":
+							[
+								{
+									"desc":"Youth 7' - 9'"
+								},
+								{
+									"desc":"Junior 10' - 12'"
+								},
+								{
+									"desc":"Senior 13' - 15'"
+								}
+							]
+						},
+						{
+							"desc":"Ref Product Line Link",
+							"rethead":"RefProductLine",
+							"type":"Edt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Observations",
+							"rethead":"Observations",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						}
+					]
+				},
+				{
+					"Code":"GLOVEPRODLINEMOD",
+					"Desc":"Glove Product Line Model",
+					"tituloDC": "GlProdLineMod",
+					"default":"false",
+					"req":"false",
+					"fotostatus":"noreq",
+					"concomentario":"false",
+					"NoShow":"false",
+					"AutoSave":"true",
+					"read":["administration"],
+					"new": ["administration"],
+					"edit":["administration"],
+					"DcStructure": 
+					[
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Glove Brand",
+							"rethead":"GloveBrand",
+                            "type":"EdtPR",
+							"Source":"thisDossier.GLOVEBRAND.GloveBrand",
+                            "req": "true",
+                            "value":[]
+                        },
+						{
+							"desc":"Glove Product Line",
+							"rethead":"GlProductLine",
+                            "type":"Spin",
+							"Source":"thisDossier.GLOVEPRODLINE.GlProductLine",
+							"req": "true",
+							"value":[]
+						},
+						{
+							"desc":"Glove Product Line Model",
+							"rethead":"GlProdLineMod",
+							"type":"Edt",
+							"req": "true",
+							"value":[]
+						},
+						{
+							"desc":"Short Description",
+							"rethead":"ShortDescript",
+							"type":"Edt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Long Description",
+							"rethead":"LongDescript",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Ref Product Line Model Link",
+							"rethead":"RefProductLineMod",
+							"type":"Edt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Observations",
+							"rethead":"Observations",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						}
+					]
+				}
+			]
+		}
+    ]
+}

@@ -1,0 +1,227 @@
+<!DOCTYPE html><html lang='en' class=''>
+	<head>
+		<link href='packages/core/main.css' rel='stylesheet' />
+		<link href='packages/daygrid/main.css' rel='stylesheet' />
+		<link href='packages/timegrid/main.css' rel='stylesheet' />
+		<link href='packages/list/main.css' rel='stylesheet' />
+		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+<style>
+
+  body {
+    margin: 20px 10px;
+    padding: 0;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 14px;
+  }
+
+  #calendar {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  @media (max-width:600px){
+	.w3-hide-small{display:none!important}
+	.fc-toolbar h2 {font-size:1em; }
+	.fc-button-primary {font-size:0.6em; }
+	}
+</style>	</head>
+
+<script src='packages/core/main.js'></script>
+<script src='packages/interaction/main.js'></script>
+<script src='packages/daygrid/main.js'></script>
+<script src='packages/timegrid/main.js'></script>
+<script src='packages/list/main.js'></script>
+<script id="rendered-js">
+	var calendar=null;
+      document.addEventListener('DOMContentLoaded', function () {
+	  var calendarEl = document.getElementById('calendar');
+		//var urlParams = new URLSearchParams(window.location.search);
+		var urlsrc='api/fetchEventsT.php'+window.location.search;
+		var urlsrcRec='api/fetchEventsR.php'+window.location.search;
+		var urlsrcCitas='api/fetchEventsC.php'+window.location.search;
+		var urlsrcVencimientos='api/fetchEventsV.php'+window.location.search;		
+		var urlsrcAvisos='api/fetchEventsA.php'+window.location.search;		
+		var urlsrcCompromisos='api/fetchEventsComp.php'+window.location.search;
+		
+	  calendar = new FullCalendar.Calendar(calendarEl, {
+		plugins: ['dayGrid', 'timeGrid', 'list', 'bootstrap'],
+		timeZone: 'local',
+		themeSystem: 'bootstrap',
+		header: {
+		  left: 'prev,next today',
+		  center: 'title',
+		  right: 'dayGridMonth, listMonth' 
+		},
+		locale: 'es',
+		 eventClick: function(rexDC) {
+			var rexid=rexDC.event.id;
+			if (rexid.charAt(0)=='R') // it is an added Rex dinamically. Get rif of the R and call it
+				rexid=rexid.slice(1);
+			var idDC = rexDC.event._def.extendedProps.idDC;
+			parent.app.showRexDC(rexid,idDC);
+			//alert(rexDC.event.title + '=>rexID:' + rexid + ' idDC:=>' + idDC);
+			// change the border color just for fun
+			rexDC.el.style.borderColor = 'red';
+		  },
+		weekNumbers: true,
+		eventLimit: true, // allow "more" link when too many events
+		loading: function(bool) {
+		  if (bool) 
+			document.getElementById("espera").style.display="inline";
+		  else 
+			document.getElementById("espera").style.display="none";
+		},
+		 eventSources: [
+				{
+				  url: urlsrc, 
+				  method: 'GET',
+				  color: 'orange',   
+				  textColor: 'black',
+				  failure: function() {
+					alert('No se pudo traer Tareas!!');
+				  }
+				},
+				{
+				  url: urlsrcRec, 
+				  method: 'GET',
+				  color: 'yellow',   
+				  textColor: 'black',
+				  failure: function() {
+					alert('No se pudo traer Recordatorios!!');
+				  }
+				},
+				{
+				  url: urlsrcCitas, 
+				  method: 'GET',
+				  color: 'black',   
+				  textColor: 'white',
+				  failure: function() {
+					alert('No se pudo traer Citas!!');
+				  }
+				},
+				{
+				  url: urlsrcAvisos, 
+				  method: 'GET',
+				  color: 'blue',   
+				  textColor: 'white',
+				  failure: function() {
+					alert('No se pudo traer Avisos!!');
+				  }
+				},
+				{
+				  url: urlsrcVencimientos, 
+				  method: 'GET',
+				  color: 'red',   
+				  textColor: 'white',
+				  failure: function() {
+					alert('No se pudo traer Vencimientos!!');
+				  }
+				},
+				{
+				  url: urlsrcCompromisos, 
+				  method: 'GET',
+				  color: 'green',   
+				  textColor: 'white',
+				  failure: function() {
+					alert('No se pudo traer Compromisos!!');
+				  }
+				}
+			  ] 
+	});
+  calendar.render();
+  document.querySelector('.fc-today-button').innerText="Hoy";
+  document.querySelector('.fc-dayGridMonth-button').innerText="mes";
+  document.querySelector('.fc-dayGridMonth-button').Background='#ff9800';
+  //document.querySelector('.fc-timeGridWeek-button').innerText="sem";
+  //document.querySelector('.fc-timeGridDay-button').innerText="dia";
+  document.querySelector('.fc-listMonth-button').innerText="lista";
+});
+function reFetch(){
+ calendar.refetchEvents();
+}
+function gotoDate(_date){
+ calendar.gotoDate(_date);
+}
+function AddEvent(repciId,_dateStr,_title){
+	var event=calendar.getEventById( 'R' + repciId );
+	var eventFecha=null;
+	if (event!=null)
+		eventFecha = event.start.getFullYear()+'-'+('0'+(event.start.getMonth()+1)).slice(-2)+'-'+('0'+event.start.getDate()).slice(-2);
+	if (event!=null && event.title==_title && eventFecha==_dateStr )
+		return; // ya está en ese dia.
+	
+	var date = new Date(_dateStr + 'T00:00:00'); // will be in local time
+	if (!isNaN(date.valueOf())) { // valid?
+	  calendar.addEvent({
+		title: _title,
+		start: date,
+		allDay: true,
+		id:'R'+repciId,
+		idDC:0
+	  });
+	} else {
+	  alert('Fecha Invalida.');
+  }
+}
+
+</script>
+<body style="min-width: 320px;">
+<div align="center" ><span style="
+    background: orange;
+    border-color: red;
+    margin: 10px;
+    padding: 8px;
+    font-size: 1em;
+    border-radius: 25px;
+"><i class="fa fa-clipboard" ></i> Tareas</span><span id="espera" style="display:none"><i class="fa fa-spinner fa-spin" style="font-size:1em;"></i></span>
+<span style="
+    background: yellow;
+    border-color: red;
+    margin: 10px;
+    padding: 8px;
+    font-size: 1em;
+    border-radius: 25px;
+"><img src="assets/reminder.png" <img src="assets/reminder.png" width="18px"> Rec<span class="w3-hide-small">ordatorios</span></span>
+<span style="
+    background: black;
+    border-color: red;
+    margin: 10px;
+    padding: 8px;
+    font-size: 1em;
+	color: white;
+    border-radius: 25px;
+"><i class="fa fa-calendar" ></i> Citas</span>
+</div>
+<br>
+<div align="center"><span style="
+    background: red;
+    border-color: red;
+    margin: 10px;
+    padding: 8px;
+    font-size: 1em;
+	color: white;
+    border-radius: 25px;
+"><i class="fa fa-eye" ></i> V<span class="w3-hide-small">encimientos</span></span>
+<span style="
+    background: blue;
+    border-color: red;
+    margin: 10px;
+    padding: 8px;
+    font-size: 1em;
+	color: white;
+    border-radius: 25px;
+"><i class="fa fa-eye" ></i> Avi<span class="w3-hide-small">sos</span></span>
+<span style="
+    background: green;
+    border-color: red;
+    margin: 10px;
+    padding: 8px;
+    font-size: 1em;
+	color: white;
+    border-radius: 25px;
+"><i class="fa fa-eye" ></i> Comp<span class="w3-hide-small">romisos</span></span>
+</div>
+<BR>
+<div id='calendar'></div>
+</body>
+</html>

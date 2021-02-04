@@ -1,0 +1,22 @@
+[
+	{
+		"desc":"SELECCIONA LA POSIBLE CAUSA",
+		"value":""
+	},
+	{
+		"desc":"Fallo interno E1 en el Display", 
+		"value":"11410-FalloInternoE1Display"
+	},
+	{
+		"desc":"Controlador en Corto.",  
+		"value":"11420-ControladorCorto"
+	},
+	{
+		"desc":"Perdida de Programacion",  
+		"value":"11430-PerdidaProgramacion"
+	},
+	{
+		"desc":"Ajuste de Parametros de Oper.fuera de Rango", 
+		"value":"11440-AjusteParametrosOperacionFueraRango"
+	}
+]

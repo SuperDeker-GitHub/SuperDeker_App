@@ -1,0 +1,178 @@
+{
+	"name":"Teams_DEPRECATED",
+	"id":8680,
+	"icon":"8680.png",
+	"markericon": "8680.png",
+	"logs":
+	[
+		{ 
+			"Id": 0,
+			"Desc":"Teams_DEPRECATED",
+			"Icon":"8680.png",
+			"DCs":
+			[
+				{
+					"Code":"TEAM",
+					"Desc":"Team_DEPRECATED",
+					"tituloDossier":"Association",
+					"tituloDC": "CountryName Assoclocation",
+					"default":"false",
+					"req":"false",
+					"fotostatus":"noreq",
+					"concomentario":"false",
+					"NoShow":"true",
+					"AutoSave":"true",
+					"read":["administration"],
+					"new": ["administration"],
+					"edit":["administration"],
+					"DcStructure": 
+					[
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Team Name",
+							"rethead":"DC.TEAM.TeamName",
+							"type":"SrcTxt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Team Name",
+							"rethead":"TeamName",
+							"type":"Edt",
+							"req": "true",
+							"value": []
+						},
+						{
+							"desc":"TeamShort Description",
+							"rethead":"TeamShortDescr",
+							"type":"Edt",
+							"req": "false",
+							"value": []
+						},
+						{
+							"desc":"Long Description",
+							"rethead":"TeamLongDescr",
+							"type":"EdtML",
+							"req": "false",
+							"value": []
+						},
+						{
+							"desc":"Ref Team Link",
+							"rethead":"RefTeam",
+							"type":"Edt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Team Contact Person",
+							"rethead":"Contact",
+							"type":"Edt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Team Mobile Phone Contact",
+							"rethead":"Mobile",
+							"type":"Telf",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Team email",
+							"rethead":"email",
+							"type":"Email",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Country Name",
+							"rethead":"CountryName",
+							"type":"EdtPR",
+							"req": "true",
+							"Source":"DC.COUNTRY.CountryName",
+							"value": []
+						},
+						{
+							"desc":"Observation",
+							"rethead":"Observation",
+							"type":"EdtML",
+							"req": "false",
+							"value": []
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						}
+					],
+                    "Sellos":
+                    [
+                        {
+                            "desc":"Approved",
+                            "valor":"1",
+                            "src":"assets/sello/Approved.png",
+                            "id":"Approved",
+                            "read":["administrador"],
+                            "new": ["administrador"],
+                            "edit":["administrador"]
+                        },
+                        {
+                            "desc":"Rejected",
+                            "valor":"2",
+                            "src":"assets/sello/Rejected.png",
+                            "id":"Rejected",
+                            "read":["administrador"],
+                            "new": ["administrador"],
+                            "edit":["administrador"]
+                        },
+                        {
+                            "desc":"annulled",
+                            "valor":"-1",
+                            "src":"./assets/sello/annulled.png",
+                            "id":"annulled",
+                            "read":["administrador"],
+                            "new": ["administrador"],
+                            "edit":["administrador"]
+                        }
+                    ]
+				}
+			]
+		}
+    ]
+}

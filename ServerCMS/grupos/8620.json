@@ -1,0 +1,1638 @@
+{
+	"name":"Approval Folder",
+	"id":8620,
+	"icon":"8620.png",
+	"markericon": "8620.png",
+	"logs":
+	[
+		{ 
+			"Id": 0,
+			"Desc":"Approval Request Folder",
+			"Icon":"8620.png",
+			"DCs":
+			[
+				{
+					"Code":"Approval",
+					"Desc":"Approval Request Folder",
+					"tituloDossier":"ApprovRequest ApprovReqDate",
+					"tituloDC": "ShortDescript",
+					"default":"false",
+					"req":"false",
+					"fotostatus":"noreq",
+					"concomentario":"false",
+					"NoShow":"true",
+					"AutoSave":"true",
+					"read":["administration","operator"],
+					"new": ["administration","operator"],
+					"edit":["administration","operator"],
+					"DcStructure": 
+					[
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Approval Request",
+							"rethead":"ApprovRequest",
+							"type":"EdtPR",
+							"req": "false",
+							"value":"APPROVAL REQ."
+						},
+						{
+							"desc":"Approval Request Date",
+							"rethead":"ApprovReqDate",
+							"type":"Date",
+							"req": "true",
+							"value":"now"
+						},
+						{
+							"desc":"Short Description",
+							"rethead":"ShortDescript",
+							"type":"Edt",
+							"req": "true",
+							"value":[]
+						},
+						{
+							"desc":"Long Description",
+							"rethead":"LongDescription",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Comment",
+							"rethead":"Comment",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						}
+					],
+                    "Sellos":
+                    [
+                        {
+                            "desc":"Approved",
+                            "valor":"1",
+                            "src":"assets/sello/Approved.png",
+                            "id":"Approved",
+                            "read":["administration"],
+                            "new": ["administration"],
+                            "edit":["administration"]
+                        },
+                        {
+                            "desc":"Rejected",
+                            "valor":"2",
+                            "src":"assets/sello/Rejected.png",
+                            "id":"Rejected",
+                            "read":["administration"],
+                            "new": ["administration"],
+                            "edit":["administration"]
+                        },
+                        {
+                            "desc":"Pending Approval",
+                            "valor":"3",
+                            "src":"assets/sello/pending.png",
+                            "id":"Rejected",
+                            "read":["operator"],
+                            "new": ["operator"],
+                            "edit":["operator"]
+                        },
+                        {
+                            "desc":"Annuled",
+                            "valor":"3",
+                            "src":"assets/sello/anulled.png",
+                            "id":"Rejected",
+                            "read":["operator"],
+                            "new": ["operator"],
+                            "edit":["operator"]
+                        }
+                    ]
+				},
+				{
+					"Code":"ADD_2_BL",
+					"Desc":"Add BLOCKLIST WORD",
+					"tituloDC": "WordNotAllowed",
+					"default":"false",
+					"req":"false",
+					"fotostatus":"noreq",
+					"concomentario":"false",
+					"NoShow":"false",
+					"AutoSave":"true",
+					"read":["administration","operator"],
+					"new": ["administration","operator"],
+					"edit":["administration","operator"],
+					"DcStructure": 
+					[
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},							
+						{
+							"desc":"Search BlockList from AppBlockList",
+							"rethead":"DC.APPBLOCKLIST.WordNotAllowed",
+							"type":"SrcTxt",
+							"req": "true",
+							"typesearch":"exact",
+							"lockiffound":"WordNotAllowed,Comment",
+							"value":[]
+						},
+						{
+							"desc":"BlockList Word",
+							"rethead":"WordNotAllowed",
+							"type":"Edt",
+							"req": "true",
+							"unique":"true",
+							"value":[]
+						},
+						{
+							"desc":"Comment",
+							"rethead":"Comment",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Motive to Add",
+							"rethead":"Motive",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						}
+					]
+				},
+				{
+					"Code":"MOD_BL",
+					"Desc":"Modify BlockList Word",
+					"tituloDC": "WordNotAllowed to MODWordNotAllowed",
+					"default":"false",
+					"req":"false",
+					"fotostatus":"noreq",
+					"concomentario":"false",
+					"NoShow":"false",
+					"AutoSave":"true",
+					"read":["administration","operator"],
+					"new": ["administration","operator"],
+					"edit":["administration","operator"],
+					"DcStructure": 
+					[
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},											
+						{
+							"desc":"Search BlockList from AppBlockList",
+							"rethead":"DC.APPBLOCKLIST.WordNotAllowed",
+							"type":"SrcTxt",
+							"req": "true",
+							"typesearch":"exact",
+							"lockiffound":"WordNotAllowed,Comment",
+							"value":[]
+						},
+						{
+							"desc":"BlockList Word",
+							"rethead":"WordNotAllowed",
+							"type":"EdtPR",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"MODIFY BlockList Word",
+							"rethead":"MODWordNotAllowed",
+							"type":"Edt",
+							"req": "true",
+							"value":[]
+						},
+						{
+							"desc":"Comment",
+							"rethead":"Comment",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Motive to Change",
+							"rethead":"Motive",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						}
+					]
+				},
+				{
+					"Code":"DEL_BL",
+					"Desc":"Delete BlockList Word",
+					"tituloDC": "WordNotAllowed",
+					"default":"false",
+					"req":"false",
+					"fotostatus":"noreq",
+					"concomentario":"false",
+					"NoShow":"false",
+					"AutoSave":"true",
+					"read":["administration","operator"],
+					"new": ["administration","operator"],
+					"edit":["administration","operator"],
+					"DcStructure": 
+					[
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},							
+						{
+							"desc":"Search BlockList from AppBlockList",
+							"rethead":"DC.APPBLOCKLIST.WordNotAllowed",
+							"type":"SrcTxt",
+							"req": "true",
+							"typesearch":"exact",
+							"lockiffound":"WordNotAllowed,Comment",
+							"value":[]
+						},
+						{
+							"desc":"BlockList Word",
+							"rethead":"WordNotAllowed",
+							"type":"EdtPR",
+							"req": "true",
+							"value":[]
+						},
+						{
+							"desc":"Comment",
+							"rethead":"Comment",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Motive to Delete",
+							"rethead":"Motive",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						}
+					]
+				},
+				{
+					"Code":"ADD_SB",
+					"Desc":"Add STICK BRAND",
+					"tituloDC": "StickBrand",
+					"default":"false",
+					"req":"false",
+					"fotostatus":"noreq",
+					"concomentario":"false",
+					"NoShow":"false",
+					"AutoSave":"true",
+					"read":["administration","operator"],
+					"new": ["administration","operator"],
+					"edit":["administration","operator"],
+					"DcStructure": 
+					[
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},									
+						{
+							"desc":"Stick Brand",
+							"rethead":"DC.APPSTICKBRAND.StickBrand",
+							"type":"SrcTxt",
+							"req": "true",
+							"typesearch":"exact",
+							"lockiffound":"StickBrand,ShortDescript,Comment",
+							"value":[]
+						},
+						{
+							"desc":"Stick Brand",
+							"rethead":"StickBrand",
+							"type":"Edt",
+							"req": "true",
+							"unique":"true",
+							"value":[]
+						},
+						{
+							"desc":"Short Description",
+							"rethead":"ShortDescript",
+							"type":"Edt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Comment",
+							"rethead":"Comment",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						}
+					]
+				},
+				{
+					"Code":"MOD_SB",
+					"Desc":"Modify Stick Brand",
+					"tituloDC": "StickBrand to MODStickBrand",
+					"default":"false",
+					"req":"false",
+					"fotostatus":"noreq",
+					"concomentario":"false",
+					"NoShow":"false",
+					"AutoSave":"true",
+					"read":["administration","operator"],
+					"new": ["administration","operator"],
+					"edit":["administration","operator"],
+					"DcStructure": 
+					[
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},											
+						{
+							"desc":"Search for Stick Brand",
+							"rethead":"DC.APPSTICKBRAND.StickBrand",
+							"type":"SrcTxt",
+							"req": "true",
+							"typesearch":"exact",
+							"lockiffound":"StickBrand,ShortDescript,Comment",
+							"value":[]
+						},
+						{
+							"desc":"Stick Brand",
+							"rethead":"StickBrand",
+							"type":"EdtPR",
+							"req": "true",
+							"unique":"true",
+							"value":[]
+						},
+						{
+							"desc":"MODIFY Stick Brand",
+							"rethead":"MODStickBrand",
+							"type":"Edt",
+							"req": "true",
+							"value":[]
+						},
+						{
+							"desc":"MODIFY Short Description",
+							"rethead":"ShortDescript",
+							"type":"Edt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Comment",
+							"rethead":"Comment",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Motive to Change",
+							"rethead":"Motive",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						}
+					]
+				},
+				{
+					"Code":"DEL_SB",
+					"Desc":"Delete Stick Brand",
+					"tituloDC": "StickBrand",
+					"default":"false",
+					"req":"false",
+					"fotostatus":"noreq",
+					"concomentario":"false",
+					"NoShow":"false",
+					"AutoSave":"true",
+					"read":["administration","operator"],
+					"new": ["administration","operator"],
+					"edit":["administration","operator"],
+					"DcStructure": 
+					[
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},										
+						{
+							"desc":"Stick Brand",
+							"rethead":"DC.APPSTICKBRAND.StickBrand",
+							"type":"SrcTxt",
+							"req": "true",
+							"typesearch":"exact",
+							"lockiffound":"StickBrand,ShortDescript,Comment",
+							"value":[]
+						},
+						{
+							"desc":"Stick Brand Delete",
+							"rethead":"StickBrand",
+							"type":"EdtPR",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Short Description",
+							"rethead":"ShortDescript",
+							"type":"EdtPR",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Comment",
+							"rethead":"Comment",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Motive to Delete",
+							"rethead":"Motive",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						}
+					]
+				},
+				{
+					"Code":"ADD_SPL",
+					"Desc":"Add STICK PRODUCT LINE",
+					"tituloDC": "StProductLine",
+					"default":"false",
+					"req":"false",
+					"fotostatus":"noreq",
+					"concomentario":"false",
+					"NoShow":"false",
+					"AutoSave":"true",
+					"read":["administration","operator"],
+					"new": ["administration","operator"],
+					"edit":["administration","operator"],
+					"DcStructure": 
+					[
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},									
+						{
+							"desc":"Stick Product Line",
+							"rethead":"DC.APPSTICKPRODLINE.StProductLine",
+							"type":"SrcTxt",
+							"req": "true",
+							"typesearch":"exact",
+							"lockiffound":"StickBrand,StProductLine,ShortDescript,Comment",
+							"value":[]
+						},
+						{
+							"desc":"Stick Brand",
+							"rethead":"StickBrand",
+                            "type":"EdtPR",
+                            "req": "true",
+                            "value":[]
+                        },
+						{
+							"desc":"Stick Product Line",
+							"rethead":"StProductLine",
+							"type":"Edt",
+							"req": "true",
+							"unique":"true",
+							"value":[]
+						},
+						{
+							"desc":"Short Description",
+							"rethead":"ShortDescript",
+							"type":"Edt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Comment",
+							"rethead":"Comment",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Motive to Add",
+							"rethead":"Motive",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						}
+					]
+				},
+				{
+					"Code":"MOD_SPL",
+					"Desc":"Modify Stick Product Line",
+					"tituloDC": "StProductLine to MODStProductLine",
+					"default":"false",
+					"req":"false",
+					"fotostatus":"noreq",
+					"concomentario":"false",
+					"NoShow":"false",
+					"AutoSave":"true",
+					"read":["administration","operator"],
+					"new": ["administration","operator"],
+					"edit":["administration","operator"],
+					"DcStructure": 
+					[
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},							
+						{
+							"desc":"Search for Product Line",
+							"rethead":"DC.APPSTICKPRODLINE.StProductLine",
+							"type":"SrcTxt",
+							"req": "true",
+							"typesearch":"exact",
+							"lockiffound":"StickBrand,StProductLine,ShortDescript,Comment",
+							"value":[]
+						},
+						{
+							"desc":"Stick Brand",
+							"rethead":"StickBrand",
+							"type":"EdtPR",
+							"req": "false",
+							"value": []
+						},
+						{
+							"desc":"Stick Product Line",
+							"rethead":"StProductLine",
+							"type":"EdtPR",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Modify Stick Product Line",
+							"rethead":"MODStProductLine",
+							"type":"Edt",
+							"req": "true",
+							"value":[]
+						},
+						{
+							"desc":"Modify Short Description",
+							"rethead":"ShortDescript",
+							"type":"Edt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Comment",
+							"rethead":"Comment",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Motive to Change",
+							"rethead":"Motive",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						}
+					]
+				},
+				{
+					"Code":"DEL_SPL",
+					"Desc":"Delete Stick Product Line",
+					"tituloDC": "StProductLine",
+					"default":"false",
+					"req":"false",
+					"fotostatus":"noreq",
+					"concomentario":"false",
+					"NoShow":"false",
+					"AutoSave":"true",
+					"read":["administration","operator"],
+					"new": ["administration","operator"],
+					"edit":["administration","operator"],
+					"DcStructure": 
+					[
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},								
+						{
+							"desc":"Search for Product Line",
+							"rethead":"DC.APPSTICKPRODLINE.StProductLine",
+							"type":"SrcTxt",
+							"req": "true",
+							"typesearch":"exact",
+							"lockiffound":"StickBrand,StProductLine,ShortDescript,Comment",
+							"value":[]
+						},
+						{
+							"desc":"Stick Brand",
+							"rethead":"StickBrand",
+							"type":"EdtPR",
+							"req": "true",
+							"value": []
+						},
+						{
+							"desc":"Stick Product Line",
+							"rethead":"StProductLine",
+							"type":"EdtPR",
+							"req": "true",
+							"value":[]
+						},
+						{
+							"desc":"Short Description",
+							"rethead":"ShortDescript",
+							"type":"EdtPR",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Comment",
+							"rethead":"Comment",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Motive to Delete",
+							"rethead":"Motive",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						}
+					]
+				},
+				{
+					"Code":"ADD_GB",
+					"Desc":"Add GLOVE BRAND",
+					"tituloDC": "GloveBrand",
+					"default":"false",
+					"req":"false",
+					"fotostatus":"noreq",
+					"concomentario":"false",
+					"NoShow":"false",
+					"AutoSave":"true",
+					"read":["administration","operator"],
+					"new": ["administration","operator"],
+					"edit":["administration","operator"],
+					"DcStructure": 
+					[
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},										
+						{
+							"desc":"Search for Glove Brand",
+							"rethead":"DC.APPGLOVEBRAND.GloveBrand",
+							"type":"SrcTxt",
+							"req": "true",
+							"typesearch":"exact",
+							"lockiffound":"GloveBrand,ShortDescript,Comment",
+							"value":[]
+						},
+						{
+							"desc":"Glove Brand",
+							"rethead":"GloveBrand",
+							"type":"Edt",
+							"req": "true",
+							"unique":"true",
+							"value":[]
+						},
+						{
+							"desc":"Short Description",
+							"rethead":"ShortDescript",
+							"type":"Edt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Comment",
+							"rethead":"Comment",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						}
+					]
+				},
+				{
+					"Code":"MOD_GB",
+					"Desc":"Modify Glove Brand",
+					"tituloDC": "GloveBrand to MODGloveBrand",
+					"default":"false",
+					"req":"false",
+					"fotostatus":"noreq",
+					"concomentario":"false",
+					"NoShow":"false",
+					"AutoSave":"true",
+					"read":["administration","operator"],
+					"new": ["administration","operator"],
+					"edit":["administration","operator"],
+					"DcStructure": 
+					[
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},											
+						{
+							"desc":"Search for Glove Brand",
+							"rethead":"DC.APPGLOVEBRAND.GloveBrand",
+							"type":"SrcTxt",
+							"req": "true",
+							"typesearch":"exact",
+							"lockiffound":"GloveBrand,ShortDescript,Comment",
+							"value":[]
+						},
+						{
+							"desc":"Glove Brand",
+							"rethead":"GloveBrand",
+							"type":"EdtPR",
+							"req": "true",
+							"value":[]
+						},
+						{
+							"desc":"MODIFY Glove Brand",
+							"rethead":"MODGloveBrand",
+							"type":"Edt",
+							"req": "true",
+							"value":[]
+						},
+						{
+							"desc":"MODIFY Short Description",
+							"rethead":"ShortDescript",
+							"type":"Edt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Comment",
+							"rethead":"Comment",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Motive to Change",
+							"rethead":"Motive",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						}
+					]
+				},
+				{
+					"Code":"DEL_GB",
+					"Desc":"Delete Glove Brand",
+					"tituloDC": "GloveBrand",
+					"default":"false",
+					"req":"false",
+					"fotostatus":"noreq",
+					"concomentario":"false",
+					"NoShow":"false",
+					"AutoSave":"true",
+					"read":["administration","operator"],
+					"new": ["administration","operator"],
+					"edit":["administration","operator"],
+					"DcStructure": 
+					[
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},										
+						{
+							"desc":"Glove Brand",
+							"rethead":"DC.APPGLOVEBRAND.GloveBrand",
+							"type":"SrcTxt",
+							"req": "true",
+							"lockiffound":"GloveBrand,ShortDescript,Comment",
+							"value":[]
+						},
+						{
+							"desc":"Glove Brand Delete",
+							"rethead":"GloveBrand",
+							"type":"EdtPR",
+							"req": "true",
+							"value":[]
+						},
+						{
+							"desc":"Short Description",
+							"rethead":"ShortDescript",
+							"type":"EdtPR",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Comment",
+							"rethead":"Comment",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Motive to Delete",
+							"rethead":"Motive",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						}
+					]
+				},
+				{
+					"Code":"ADD_GPL",
+					"Desc":"Add GLOVE PRODUCT LINE",
+					"tituloDC": "GlProductLine",
+					"default":"false",
+					"req":"false",
+					"fotostatus":"noreq",
+					"concomentario":"false",
+					"NoShow":"false",
+					"AutoSave":"true",
+					"read":["administration","operator"],
+					"new": ["administration","operator"],
+					"edit":["administration","operator"],
+					"DcStructure": 
+					[
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},							
+						{
+							"desc":"Search for Product Line",
+							"rethead":"DC.APPGLOVEPRODLINE.GlProductLine",
+							"type":"SrcTxt",
+							"req": "true",
+							"typesearch":"exact",
+							"lockiffound":"GloveBrand,GlProductLine,ShortDescript,Comment",
+							"value":[]
+						},
+						{
+							"desc":"Glove Brand",
+							"rethead":"GloveBrand",
+							"type":"EdtPR",
+							"req": "true",
+							"value": []
+						},
+						{
+							"desc":"Glove Product Line",
+							"rethead":"GlProductLine",
+							"type":"Edt",
+							"req": "true",
+							"unique":"true",
+							"value":[]
+						},
+						{
+							"desc":"Short Description",
+							"rethead":"ShortDescript",
+							"type":"Edt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Comment",
+							"rethead":"Comment",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Motive to Add",
+							"rethead":"Motive",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						}
+					]
+				},
+				{
+					"Code":"MOD_GPL",
+					"Desc":"Modify Glove Product Line",
+					"tituloDC": "GlProductLine to MODGlProductLine",
+					"default":"false",
+					"req":"false",
+					"fotostatus":"noreq",
+					"concomentario":"false",
+					"NoShow":"false",
+					"AutoSave":"true",
+					"read":["administration","operator"],
+					"new": ["administration","operator"],
+					"edit":["administration","operator"],
+					"DcStructure": 
+					[
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},								
+						{
+							"desc":"Search for Product Line",
+							"rethead":"DC.APPGLOVEPRODLINE.GlProductLine",
+							"type":"SrcTxt",
+							"req": "true",
+							"typesearch":"exact",
+							"lockiffound":"GloveBrand,GlProductLine,ShortDescript,Comment",
+							"value":[]
+						},
+						{
+							"desc":"Glove Brand",
+							"rethead":"GloveBrand",
+							"type":"EdtPR",
+							"req": "true",
+							"value": []
+						},
+						{
+							"desc":"Glove Product Line",
+							"rethead":"GlProductLine",
+							"type":"EdtPR",
+							"req": "true",
+							"value":[]
+						},
+						{
+							"desc":"MODIFY Glove Product Line",
+							"rethead":"MODGlProductLine",
+							"type":"Edt",
+							"req": "true",
+							"value":[]
+						},
+						{
+							"desc":"MODIFY Short Description",
+							"rethead":"ShortDescript",
+							"type":"Edt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Comment",
+							"rethead":"Comment",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Motive to Change",
+							"rethead":"Motive",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						}
+					]
+				},
+				{
+					"Code":"DEL_GPL",
+					"Desc":"Delete Glove Product Line",
+					"tituloDC": "GlProductLine",
+					"default":"false",
+					"req":"false",
+					"fotostatus":"noreq",
+					"concomentario":"false",
+					"NoShow":"false",
+					"AutoSave":"true",
+					"read":["administration","operator"],
+					"new": ["administration","operator"],
+					"edit":["administration","operator"],
+					"DcStructure": 
+					[
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},								
+						{
+							"desc":"Search for Product Line",
+							"rethead":"DC.APPGLOVEPRODLINE.GlProductLine",
+							"type":"SrcTxt",
+							"req": "true",
+							"typesearch":"exact",
+							"lockiffound":"GloveBrand,GlProductLine,ShortDescript,Comment",
+							"value":[]
+						},
+						{
+							"desc":"Glove Brand",
+							"rethead":"GloveBrand",
+							"type":"EdtPR",
+							"req": "true",
+							"value": []
+						},
+						{
+							"desc":"Glove Product Line",
+							"rethead":"GlProductLine",
+							"type":"EdtPR",
+							"req": "true",
+							"value":[]
+						},
+						{
+							"desc":"Short Description",
+							"rethead":"ShortDescript",
+							"type":"EdtPR",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Comment",
+							"rethead":"Comment",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Motive to Delete",
+							"rethead":"Motive",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						}
+					]
+				}
+			]
+		}
+    ]
+}

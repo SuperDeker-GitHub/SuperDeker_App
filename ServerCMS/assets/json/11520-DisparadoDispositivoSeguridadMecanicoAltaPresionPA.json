@@ -1,0 +1,18 @@
+[
+	{
+		"desc":"SELECCIONA LA POSIBLE CAUSA-DETALLE",
+		"value":""
+	},
+	{
+		"desc":"Alta Presion de Descarga General en el Sistema", 
+		"value":"11521-ALTA PRESION DE DESCARGA GENERAL EN EL SISTEMA"
+	},
+	{
+		"desc":"Falla en Dispositivo Mecanico del Presostato",  
+		"value":"11522-FALLA EN DISPOSITIVO MECANICO DEL PRESOSTATO"
+	},
+	{
+		"desc":"Presostato Descalibrado",
+		"value":"11523-PRESOSTATO DESCALIBRADO"
+	}
+]

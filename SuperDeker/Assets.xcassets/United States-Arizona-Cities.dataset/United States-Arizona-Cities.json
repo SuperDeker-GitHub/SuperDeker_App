@@ -1,0 +1,307 @@
+[
+{
+"id": "42688",
+"name": "Apache Junction",
+"state_id": "3921"
+},
+{
+"id": "42689",
+"name": "Avondale",
+"state_id": "3921"
+},
+{
+"id": "42690",
+"name": "Bisbee",
+"state_id": "3921"
+},
+{
+"id": "42691",
+"name": "Bouse",
+"state_id": "3921"
+},
+{
+"id": "42692",
+"name": "Bullhead City",
+"state_id": "3921"
+},
+{
+"id": "42693",
+"name": "Carefree",
+"state_id": "3921"
+},
+{
+"id": "42694",
+"name": "Casa Grande",
+"state_id": "3921"
+},
+{
+"id": "42695",
+"name": "Casas Adobes",
+"state_id": "3921"
+},
+{
+"id": "42696",
+"name": "Chandler",
+"state_id": "3921"
+},
+{
+"id": "42697",
+"name": "Clarkdale",
+"state_id": "3921"
+},
+{
+"id": "42698",
+"name": "Cottonwood",
+"state_id": "3921"
+},
+{
+"id": "42699",
+"name": "Douglas",
+"state_id": "3921"
+},
+{
+"id": "42700",
+"name": "Drexel Heights",
+"state_id": "3921"
+},
+{
+"id": "42701",
+"name": "El Mirage",
+"state_id": "3921"
+},
+{
+"id": "42702",
+"name": "Flagstaff",
+"state_id": "3921"
+},
+{
+"id": "42703",
+"name": "Florence",
+"state_id": "3921"
+},
+{
+"id": "42704",
+"name": "Flowing Wells",
+"state_id": "3921"
+},
+{
+"id": "42705",
+"name": "Fort Mohave",
+"state_id": "3921"
+},
+{
+"id": "42706",
+"name": "Fortuna Foothills",
+"state_id": "3921"
+},
+{
+"id": "42707",
+"name": "Fountain Hills",
+"state_id": "3921"
+},
+{
+"id": "42708",
+"name": "Gilbert",
+"state_id": "3921"
+},
+{
+"id": "42709",
+"name": "Glendale",
+"state_id": "3921"
+},
+{
+"id": "42710",
+"name": "Globe",
+"state_id": "3921"
+},
+{
+"id": "42711",
+"name": "Goodyear",
+"state_id": "3921"
+},
+{
+"id": "42712",
+"name": "Green Valley",
+"state_id": "3921"
+},
+{
+"id": "42713",
+"name": "Kingman",
+"state_id": "3921"
+},
+{
+"id": "42714",
+"name": "Lake Havasu City",
+"state_id": "3921"
+},
+{
+"id": "42715",
+"name": "Laveen",
+"state_id": "3921"
+},
+{
+"id": "42716",
+"name": "Litchfield Park",
+"state_id": "3921"
+},
+{
+"id": "42717",
+"name": "Marana",
+"state_id": "3921"
+},
+{
+"id": "42718",
+"name": "Mesa",
+"state_id": "3921"
+},
+{
+"id": "42719",
+"name": "New Kingman-Butler",
+"state_id": "3921"
+},
+{
+"id": "42720",
+"name": "Nogales",
+"state_id": "3921"
+},
+{
+"id": "42721",
+"name": "Oracle",
+"state_id": "3921"
+},
+{
+"id": "42722",
+"name": "Oro Valley",
+"state_id": "3921"
+},
+{
+"id": "42723",
+"name": "Paradise Valley",
+"state_id": "3921"
+},
+{
+"id": "42724",
+"name": "Parker",
+"state_id": "3921"
+},
+{
+"id": "42725",
+"name": "Payson",
+"state_id": "3921"
+},
+{
+"id": "42726",
+"name": "Peoria",
+"state_id": "3921"
+},
+{
+"id": "42727",
+"name": "Phoenix",
+"state_id": "3921"
+},
+{
+"id": "42728",
+"name": "Pine",
+"state_id": "3921"
+},
+{
+"id": "42729",
+"name": "Pinetop",
+"state_id": "3921"
+},
+{
+"id": "42730",
+"name": "Prescott",
+"state_id": "3921"
+},
+{
+"id": "42731",
+"name": "Prescott Valley",
+"state_id": "3921"
+},
+{
+"id": "42732",
+"name": "Quartzsite",
+"state_id": "3921"
+},
+{
+"id": "42733",
+"name": "Queen Creek",
+"state_id": "3921"
+},
+{
+"id": "42734",
+"name": "Rio Rico",
+"state_id": "3921"
+},
+{
+"id": "42735",
+"name": "Safford",
+"state_id": "3921"
+},
+{
+"id": "42736",
+"name": "San Luis",
+"state_id": "3921"
+},
+{
+"id": "42737",
+"name": "Scottsdale",
+"state_id": "3921"
+},
+{
+"id": "42738",
+"name": "Sedona",
+"state_id": "3921"
+},
+{
+"id": "42739",
+"name": "Sierra Vista",
+"state_id": "3921"
+},
+{
+"id": "42740",
+"name": "Sierra Vista Southeast",
+"state_id": "3921"
+},
+{
+"id": "42741",
+"name": "Sun City",
+"state_id": "3921"
+},
+{
+"id": "42742",
+"name": "Sun City West",
+"state_id": "3921"
+},
+{
+"id": "42743",
+"name": "Surprise",
+"state_id": "3921"
+},
+{
+"id": "42744",
+"name": "Tempe",
+"state_id": "3921"
+},
+{
+"id": "42745",
+"name": "Tombstone",
+"state_id": "3921"
+},
+{
+"id": "42746",
+"name": "Tucson",
+"state_id": "3921"
+},
+{
+"id": "42747",
+"name": "Winslow",
+"state_id": "3921"
+},
+{
+"id": "42748",
+"name": "Yuma",
+"state_id": "3921"
+}    
+]

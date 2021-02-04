@@ -1,0 +1,26 @@
+[
+	{
+		"desc":"SELECCIONA EL SINTOMA",
+		"value":""
+	},
+	{
+		"desc":"Evaporador Bloqueado",
+		"value":"15100-EvaporadorBloqueado"
+	},
+	{
+		"desc":"Intercamb.de Calor Liq./Succion Con Fugas Internas",
+		"value":"15200-IntercambiadoresCalorLiquidoSuccionConFugasInternas"
+	},
+	{
+		"desc":"Bulbo de las VETs Mal Ubicado o Fuera de Posicion.",
+		"value":"15300-BulboVETsMalUbicadoFueraPosicion"
+	},
+	{
+		"desc":"Param.de Ajuste de Sobrecalentam.Fuera de Rango",
+		"value":"15400-ParametrosAjusteSobrecalentamientoFueraRango"
+	},
+	{
+		"desc":"Ajuste de Sobrecalentam.de la VETs Muy Bajo",
+		"value":"15500-AjusteSobrecalentamientoVETsMuyBajo"
+	}
+]

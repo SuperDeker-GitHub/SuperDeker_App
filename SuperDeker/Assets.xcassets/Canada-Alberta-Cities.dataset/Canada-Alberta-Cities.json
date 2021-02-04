@@ -1,0 +1,547 @@
+[
+{
+"id": "10093",
+"name": "Airdrie",
+"state_id": "663"
+},
+{
+"id": "10094",
+"name": "Athabasca",
+"state_id": "663"
+},
+{
+"id": "10095",
+"name": "Banff",
+"state_id": "663"
+},
+{
+"id": "10096",
+"name": "Barrhead",
+"state_id": "663"
+},
+{
+"id": "10097",
+"name": "Bassano",
+"state_id": "663"
+},
+{
+"id": "10098",
+"name": "Beaumont",
+"state_id": "663"
+},
+{
+"id": "10099",
+"name": "Beaverlodge",
+"state_id": "663"
+},
+{
+"id": "10100",
+"name": "Black Diamond",
+"state_id": "663"
+},
+{
+"id": "10101",
+"name": "Blackfalds",
+"state_id": "663"
+},
+{
+"id": "10102",
+"name": "Blairmore",
+"state_id": "663"
+},
+{
+"id": "10103",
+"name": "Bon Accord",
+"state_id": "663"
+},
+{
+"id": "10104",
+"name": "Bonnyville",
+"state_id": "663"
+},
+{
+"id": "10105",
+"name": "Bow Island",
+"state_id": "663"
+},
+{
+"id": "10106",
+"name": "Brooks",
+"state_id": "663"
+},
+{
+"id": "10107",
+"name": "Calgary",
+"state_id": "663"
+},
+{
+"id": "10108",
+"name": "Calmar",
+"state_id": "663"
+},
+{
+"id": "10109",
+"name": "Camrose",
+"state_id": "663"
+},
+{
+"id": "10110",
+"name": "Canmore",
+"state_id": "663"
+},
+{
+"id": "10111",
+"name": "Cardston",
+"state_id": "663"
+},
+{
+"id": "10112",
+"name": "Carstairs",
+"state_id": "663"
+},
+{
+"id": "10113",
+"name": "Chateau Lake Louise",
+"state_id": "663"
+},
+{
+"id": "10114",
+"name": "Chestermere",
+"state_id": "663"
+},
+{
+"id": "10115",
+"name": "Clairmont",
+"state_id": "663"
+},
+{
+"id": "10116",
+"name": "Claresholm",
+"state_id": "663"
+},
+{
+"id": "10117",
+"name": "Coaldale",
+"state_id": "663"
+},
+{
+"id": "10118",
+"name": "Coalhurst",
+"state_id": "663"
+},
+{
+"id": "10119",
+"name": "Cochrane",
+"state_id": "663"
+},
+{
+"id": "10120",
+"name": "Crossfield",
+"state_id": "663"
+},
+{
+"id": "10121",
+"name": "Devon",
+"state_id": "663"
+},
+{
+"id": "10122",
+"name": "Didsbury",
+"state_id": "663"
+},
+{
+"id": "10123",
+"name": "Drayton Valley",
+"state_id": "663"
+},
+{
+"id": "10124",
+"name": "Drumheller",
+"state_id": "663"
+},
+{
+"id": "10125",
+"name": "Edmonton",
+"state_id": "663"
+},
+{
+"id": "10126",
+"name": "Edson",
+"state_id": "663"
+},
+{
+"id": "10127",
+"name": "Elk Point",
+"state_id": "663"
+},
+{
+"id": "10128",
+"name": "Fairview",
+"state_id": "663"
+},
+{
+"id": "10129",
+"name": "Falher",
+"state_id": "663"
+},
+{
+"id": "10130",
+"name": "Fort MacLeod",
+"state_id": "663"
+},
+{
+"id": "10131",
+"name": "Fox Creek",
+"state_id": "663"
+},
+{
+"id": "10132",
+"name": "Gibbons",
+"state_id": "663"
+},
+{
+"id": "10133",
+"name": "Grand Centre",
+"state_id": "663"
+},
+{
+"id": "10134",
+"name": "Grande Cache",
+"state_id": "663"
+},
+{
+"id": "10135",
+"name": "Grande Prairie",
+"state_id": "663"
+},
+{
+"id": "10136",
+"name": "Grimshaw",
+"state_id": "663"
+},
+{
+"id": "10137",
+"name": "Hanna",
+"state_id": "663"
+},
+{
+"id": "10138",
+"name": "High Level",
+"state_id": "663"
+},
+{
+"id": "10139",
+"name": "High Prairie",
+"state_id": "663"
+},
+{
+"id": "10140",
+"name": "High River",
+"state_id": "663"
+},
+{
+"id": "10141",
+"name": "Hinton",
+"state_id": "663"
+},
+{
+"id": "10142",
+"name": "Irricana",
+"state_id": "663"
+},
+{
+"id": "10143",
+"name": "Jasper",
+"state_id": "663"
+},
+{
+"id": "10144",
+"name": "Killam",
+"state_id": "663"
+},
+{
+"id": "10145",
+"name": "La Crete",
+"state_id": "663"
+},
+{
+"id": "10146",
+"name": "Lac la Biche",
+"state_id": "663"
+},
+{
+"id": "10147",
+"name": "Lacombe",
+"state_id": "663"
+},
+{
+"id": "10148",
+"name": "Lamont",
+"state_id": "663"
+},
+{
+"id": "10149",
+"name": "Leduc",
+"state_id": "663"
+},
+{
+"id": "10150",
+"name": "Lethbridge",
+"state_id": "663"
+},
+{
+"id": "10151",
+"name": "Lloydminster",
+"state_id": "663"
+},
+{
+"id": "10152",
+"name": "Magrath",
+"state_id": "663"
+},
+{
+"id": "10153",
+"name": "Manning",
+"state_id": "663"
+},
+{
+"id": "10154",
+"name": "Mayerthorpe",
+"state_id": "663"
+},
+{
+"id": "10155",
+"name": "McMurray",
+"state_id": "663"
+},
+{
+"id": "10156",
+"name": "Medicine Hat",
+"state_id": "663"
+},
+{
+"id": "10157",
+"name": "Millet",
+"state_id": "663"
+},
+{
+"id": "10158",
+"name": "Morinville",
+"state_id": "663"
+},
+{
+"id": "10159",
+"name": "Nanton",
+"state_id": "663"
+},
+{
+"id": "10160",
+"name": "Okotoks",
+"state_id": "663"
+},
+{
+"id": "10161",
+"name": "Olds",
+"state_id": "663"
+},
+{
+"id": "10162",
+"name": "Peace River",
+"state_id": "663"
+},
+{
+"id": "10163",
+"name": "Penhold",
+"state_id": "663"
+},
+{
+"id": "10164",
+"name": "Picture Butte",
+"state_id": "663"
+},
+{
+"id": "10165",
+"name": "Pincher Creek",
+"state_id": "663"
+},
+{
+"id": "10166",
+"name": "Ponoka",
+"state_id": "663"
+},
+{
+"id": "10167",
+"name": "Provost",
+"state_id": "663"
+},
+{
+"id": "10168",
+"name": "Raymond",
+"state_id": "663"
+},
+{
+"id": "10169",
+"name": "Red Deer",
+"state_id": "663"
+},
+{
+"id": "10170",
+"name": "Redwater",
+"state_id": "663"
+},
+{
+"id": "10171",
+"name": "Rimbey",
+"state_id": "663"
+},
+{
+"id": "10172",
+"name": "Rocky Mountain House",
+"state_id": "663"
+},
+{
+"id": "10173",
+"name": "Rocky View",
+"state_id": "663"
+},
+{
+"id": "10174",
+"name": "Saint Paul",
+"state_id": "663"
+},
+{
+"id": "10175",
+"name": "Sexsmith",
+"state_id": "663"
+},
+{
+"id": "10176",
+"name": "Sherwood Park",
+"state_id": "663"
+},
+{
+"id": "10177",
+"name": "Slave Lake",
+"state_id": "663"
+},
+{
+"id": "10178",
+"name": "Smoky Lake",
+"state_id": "663"
+},
+{
+"id": "10179",
+"name": "Spirit River",
+"state_id": "663"
+},
+{
+"id": "10180",
+"name": "Spruce Grove",
+"state_id": "663"
+},
+{
+"id": "10181",
+"name": "Stettler",
+"state_id": "663"
+},
+{
+"id": "10182",
+"name": "Stony Plain",
+"state_id": "663"
+},
+{
+"id": "10183",
+"name": "Strathmore",
+"state_id": "663"
+},
+{
+"id": "10184",
+"name": "Sundre",
+"state_id": "663"
+},
+{
+"id": "10185",
+"name": "Swan Hills",
+"state_id": "663"
+},
+{
+"id": "10186",
+"name": "Sylvan Lake",
+"state_id": "663"
+},
+{
+"id": "10187",
+"name": "Taber",
+"state_id": "663"
+},
+{
+"id": "10188",
+"name": "Three Hills",
+"state_id": "663"
+},
+{
+"id": "10189",
+"name": "Tofield",
+"state_id": "663"
+},
+{
+"id": "10190",
+"name": "Two Hills",
+"state_id": "663"
+},
+{
+"id": "10191",
+"name": "Valleyview",
+"state_id": "663"
+},
+{
+"id": "10192",
+"name": "Vegreville",
+"state_id": "663"
+},
+{
+"id": "10193",
+"name": "Vermilion",
+"state_id": "663"
+},
+{
+"id": "10194",
+"name": "Viking",
+"state_id": "663"
+},
+{
+"id": "10195",
+"name": "Vulcan",
+"state_id": "663"
+},
+{
+"id": "10196",
+"name": "Wainwright",
+"state_id": "663"
+},
+{
+"id": "10197",
+"name": "Wembley",
+"state_id": "663"
+},
+{
+"id": "10198",
+"name": "Westlock",
+"state_id": "663"
+},
+{
+"id": "10199",
+"name": "Wetaskiwin",
+"state_id": "663"
+},
+{
+"id": "10200",
+"name": "Whitecourt",
+"state_id": "663"
+},
+{
+"id": "10201",
+"name": "Wood Buffalo",
+"state_id": "663"
+}
+]

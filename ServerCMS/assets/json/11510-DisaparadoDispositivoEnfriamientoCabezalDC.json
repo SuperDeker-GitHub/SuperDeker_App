@@ -1,0 +1,34 @@
+[
+	{
+		"desc":"SELECCIONA LA POSIBLE CAUSA-DETALLE",
+		"value":""
+	},
+	{
+		"desc":"Motor de Cabezal fuera de operacion", 
+		"value":"11511-MotorCabezalFueraOperacion"
+	},
+	{
+		"desc":"Sensor de Temperatura de Demang Cooling No Funciona",  
+		"value":"11512-SensorTemperaturaDemangCoolingNoFunciona"
+	},
+	{
+		"desc":"Modulo de Demang Cooling",
+		"value":"11513-ModuloDemangCooling"
+	},
+	{
+		"desc":"Insufic.Liquido Refriger.de Inyeccion al Compresor", 
+		"value":"11514-InsuficienteLiquidoRefrigeranteInyeccionCompresor"
+	},
+	{
+		"desc":"Bobina Valv.de Inyecc.de Liquido al Compresor Danada",
+		"value":"11515-BobinaValvulaInyeccionLiquidoCompresorDanada"
+	},
+	{
+		"desc":"Termico de Protecc.Interna del Compresor Abierto",
+		"value":"11516-TermicoProteccionInternaCompresorAbierto"
+	},
+	{
+		"desc":"Alta Temperat.de Descarga General en el Sistema",
+		"value":"11517-AltaTemperaturaDescargaGeneralSistema"
+	}
+]

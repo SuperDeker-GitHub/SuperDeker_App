@@ -1,0 +1,26 @@
+[
+	{
+		"desc":"SELECCIONA TIPO DE EQUIPO",
+		"value":""
+	},
+	{
+		"desc":"Sistema de Inyeccion de Aceite",
+		"value":"11000-SistemaInyeccionAceite"
+	},
+	{
+		"desc":"Evaporador",
+		"value":"12000-Evaporador"
+	},
+	{
+		"desc":"Compresores",
+		"value":"13000-Compresores"
+	},
+	{
+		"desc":"Condensadores",
+		"value":"14000-Condensadores"
+	},
+	{
+		"desc":"Fallas Generales",
+		"value":"15000-FallasGenerales"
+	}
+]

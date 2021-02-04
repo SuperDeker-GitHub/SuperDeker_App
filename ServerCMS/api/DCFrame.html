@@ -1,0 +1,489 @@
+
+
+<!DOCTYPE html><html lang='en' class=''>
+<head>
+<!--
+<script src='//static.codepen.io/assets/editor/live/console_runner-ce3034e6bde3912cc25f83cccb7caa2b0f976196f2f2d52303a462c826d54a73.js'></script>
+<script src='//static.codepen.io/assets/editor/live/css_reload-2a5c7ad0fe826f66e054c6020c99c1e1c63210256b6ba07eb41d7a4cb0d0adab.js'></script>
+<meta charset='UTF-8'>
+<meta name="robots" content="noindex">
+<link rel="shortcut icon" type="image/x-icon" href="//static.codepen.io/assets/favicon/favicon-8ea04875e70c4b0bb41da869e81236e54394d63638a1ef12fa558a4a835f1164.ico" />
+<link rel="mask-icon" type="" href="//static.codepen.io/assets/favicon/logo-pin-f2d2b6d2c61838f7e76325261b7195c27224080bc099486ddd6dccb469b8e8e6.svg" color="#111" />
+<link rel="canonical" href="https://codepen.io/andytran/pen/BNjymy" />
+<script src="//use.typekit.net/xyl8bgh.js"></script>
+<script>try{Typekit.load();}catch(e){}</script>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css'>
+<link rel='stylesheet' href='//codepen.io/andytran/pen/vLmRVp.js.css'>-->
+<link rel='stylesheet' href='../assets/css/font-awesome.min.css'>
+<script src="https://unpkg.com/dexie/dist/dexie.js"></script>
+
+<style class="cp-pen-styles">body {
+  background: #f2f2f2;
+  font-family: 'proxima-nova-soft', sans-serif;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.post-module {
+  position: relative;
+  z-index: 1;
+  display: block;
+  background: #FFFFFF;
+  min-width: 270px;
+  height: 460px;
+  -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+  -webkit-transition: all 0.3s linear 0s;
+  -moz-transition: all 0.3s linear 0s;
+  -ms-transition: all 0.3s linear 0s;
+  -o-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
+}
+.post-module:hover,
+.hover {
+  -webkit-box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
+}
+.post-module:hover .thumbnail img,
+.hover .thumbnail img {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  transform: scale(1.1);
+  opacity: 1;
+
+}
+.post-module .thumbnail {
+  background: #000000;
+  height: 400px;
+  overflow: hidden;
+}
+.post-module .thumbnail .date {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1;
+  background: #e74c3c;
+  width: 55px;
+  height: 55px;
+  padding: 12.5px 0;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  color: #FFFFFF;
+  font-weight: 700;
+  text-align: center;
+  -webkti-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.fotoautor {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1;
+   width: 55px;
+  height: 55px;
+  padding: 12.5px 0;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  color: #FFFFFF;
+  text-align: center;
+  -webkti-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.post-module .thumbnail .date .day {
+  font-size: 18px;
+}
+
+.date > img {
+	padding:0px;
+}
+.post-module .thumbnail .date .month {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.post-module .thumbnail img {
+	position:relative;
+  display: block;
+  width: 120%;
+  -webkit-transition: all 0.3s linear 0s;
+  -moz-transition: all 0.3s linear 0s;
+  -ms-transition: all 0.3s linear 0s;
+  -o-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
+  top:-25%
+}
+.post-module .post-content {
+  position: absolute;
+  bottom: 0;
+  background: #FFFFFF;
+  width: 100%;
+  padding: 30px;
+  -webkti-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+  -moz-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+  -ms-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+  -o-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+  transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+}
+.post-module .post-content .category {
+  position: absolute;
+  top: -34px;
+  left: 0;
+  background: orange;
+  nose:#e74c3c;
+  padding: 10px 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.post-module .post-content .title {
+  margin: 0;
+  padding: 0 0 10px;
+  color: #333333;
+  font-size: 18px;
+  font-weight: 700;
+}
+.post-module .post-content .sub_title {
+  margin: 0;
+  padding: 0 0 20px;
+  color: #e74c3c;
+  font-size: 18px;
+  font-weight: 400;
+}
+.post-module .post-content .description {
+  display: none;
+  color: #666666;
+  font-size: 14px;
+  line-height: 1.8em;
+}
+.post-module .post-content .post-meta {
+  margin: 30px 0 0;
+  color: #999999;
+}
+.post-module .post-content .post-meta .timestamp {
+  margin: 0 16px 0 0;
+}
+.post-module .post-content .post-meta a {
+  color: #999999;
+  text-decoration: none;
+}
+.hover .post-content .description {
+  display: block !important;
+  height: auto !important;
+  opacity: 1 !important;
+}
+.container {
+  max-width: 600px;
+    min-width: 300px;
+  margin: 0 auto;
+  font-size: 14px;
+}
+.container:before,
+.container:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.container .column {
+  width: 100%;
+  padding: 0 5px;
+  -webkti-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+}
+.container .column .demo-title {
+  margin: 0 0 15px;
+  color: #666666;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.container .info {
+  width: 300px;
+  margin: 50px auto;
+  text-align: center;
+}
+.container .info h1 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333;
+}
+.container .info span {
+  color: #666666;
+  font-size: 12px;
+}
+.container .info span a {
+  color: #000000;
+  text-decoration: none;
+}
+.container .info span .fa {
+  color: #e74c3c;
+}
+th, td {
+    border-bottom: 1px solid #ddd;
+}
+tr:hover {background-color: #f5f5f5;}
+
+#DcContent {
+-webkit-transition: height 2s;
+ transition: height 2s;
+}
+.shortDcContent{
+	-webkit-transition: height 2s;
+	transition: height 2s;
+	height:10px;
+}
+.fullDcContent{
+-webkit-transition: height 2s;
+ transition: height 2s;
+	height:260px;
+}
+
+
+</style>
+
+
+<script>
+function GetParameter(parameterName) {
+    var result = null,
+        tmp = [];
+    location.search
+        .substr(1)
+        .split("&")
+        .forEach(function (item) {
+          tmp = item.split("=");
+          if (tmp[0] === parameterName) result = decodeURIComponent(tmp[1]);
+        });
+    return result;
+}
+
+const db = new Dexie('RexSet');
+function StartDB(){
+	db.version(1).stores({
+		rexs: '++id,repciId,when_date',
+		DataClips:'++id,repciId,filename',
+		Tuplas:'++id,idDC,value1,value2'
+	});	
+}
+
+function randomNumber(){
+	return (Math.floor(Math.random() * 13));
+}
+
+function noimage(image){
+	document.getElementById('DcImage').style.display = 'none';
+	if ("".slice(-3)=='pdf'){
+		document.getElementById('DcPdf').src="#toolbar=0&page=1&view=FitH";
+		normalPdf();
+		//document.getElementById('DcContent').style.height = '242px';
+	}
+	else{
+		document.getElementById('DcContent').style.height = '400px';
+	}
+}
+
+function noPdf(image){
+	document.getElementById('DcPdf').style.display = 'none';
+	if (document.getElementById('DcImage').style.display == 'none')
+		document.getElementById('DcContent').style.height = '400px';
+	//else
+		//document.getElementById('DcContent').style.height = '242px';
+}
+var ImageZoomed=false;
+var ImageHeight=0;
+
+function fullImage(){
+	if (document.getElementById('DcImage').style.display=='none'){
+		fullPdf();
+	}
+	else{
+		if (!ImageZoomed){
+			DcContentHeight = document.getElementById('DcContent').style.height;
+			document.getElementById('DcTable').style.display='none';	
+			document.getElementById('DcFooter').style.display='none';	
+			document.getElementById('DcContent').style.height = '10px';	
+			ImageHeight=document.getElementById('DcImage').height*2;
+			document.getElementById('DcImage').style.width = '100%';//'200%';
+			ImageZoomed=true;
+		}else{
+			normalImage();
+		}
+	}
+}
+
+function fullPdf(){
+	if (document.getElementById('DcImage').style.display=='none'){
+		if (!ImageZoomed){
+			DcContentHeight = document.getElementById('DcContent').style.height;
+			document.getElementById('DcTable').style.display='none';	
+			document.getElementById('DcFooter').style.display='none';	
+			document.getElementById('DcContent').style.height = '10px';	
+			document.getElementById('DcPdf').style.height='400px';
+			ImageHeight=document.getElementById('DcPdf').height;
+			document.getElementById('DcPdf').style.width = '100%';
+			ImageZoomed=true;
+		}
+		else{
+			normalPdf();
+		}
+	}
+}
+function trackmouse(event){
+	return; // funciona bien cuando el DcImage es el 200% en zoom
+	if (ImageZoomed){
+		var x = event.clientX;
+		var y = event.clientY;
+		document.getElementById('DcImage').style.top = "-" + (ImageHeight-y)/400*y + "px";
+		document.getElementById('DcImage').style.left =  "-" + (x-75) +"px";
+	}
+}
+var DcContentHeight=-1;
+function normalImage(){
+	if (document.getElementById('DcImage').style.display=='none')
+		normalPdf();	
+	else{
+		if (DcContentHeight==-1)
+			DcContentHeight=document.getElementById('DcContent').style.height;
+		document.getElementById('DcContent').style.height = DcContentHeight;	
+		document.getElementById('DcTable').style.display='';//'block';	
+		document.getElementById('DcFooter').style.display='';//'block';	
+			
+		document.getElementById('DcImage').style.left = '0px';
+		document.getElementById('DcImage').style.top = '0px';
+		
+		document.getElementById('DcImage').style.width = '100%';
+		document.getElementById('DcImage').style.heigth = '100%';
+		
+		ImageHeight=document.getElementById('DcImage').height;
+		ImageZoomed=false;
+	}
+}
+
+function normalPdf(){
+	if (document.getElementById('DcImage').style.display=='none'){
+		if (DcContentHeight==-1)
+			DcContentHeight=document.getElementById('DcContent').style.height;
+		document.getElementById('DcContent').style.height = DcContentHeight;	
+		document.getElementById('DcTable').style.display='';//'block';	
+		document.getElementById('DcFooter').style.display='';//'block';	
+			
+		document.getElementById('DcPdf').style.left = '0px';
+		document.getElementById('DcPdf').style.top = '0px';
+		
+		document.getElementById('DcPdf').style.width = '100%';
+		document.getElementById('DcPdf').style.height = '400px';
+		
+		ImageHeight=document.getElementById('DcPdf').height;
+		ImageZoomed=false;
+	}
+}
+
+function prevDC(DcId){
+	alert ("Prev=>" + DcId);
+}
+
+
+function nextDC(DcId){
+	alert ("Next=>" + DcId);
+}
+
+//function ActivaBotones(){
+//	prevDC();
+//	nextDC();
+//}
+async function getdcinfo(frame){
+	StartDB();
+	var dcid = parseInt(window.frameElement.getAttribute('dcid')); //parseInt(GetParameter('dc'));
+	if (dcid)
+		var dbdc =  await db.DataClips.get(dcid);
+		if (dbdc){
+			//Aqui está el DataClips
+			document.getElementById('FotoAutor').src = "../aicons/user-"+dbdc.fromUser+".jpg";
+			document.getElementById('DcImage').src = dbdc.base64img;
+			if (dbdc.base64img)
+				document.getElementById('DcImage').style.display='';
+			document.getElementById('comment').innerHTML = dbdc.comment;
+			document.getElementById('DCTypeTitle').innerHTML = dbdc.DCType;
+			document.getElementById('creator').innerHTML = dbdc.fromUser;
+			document.getElementById('when_date').innerHTML = dbdc.when_date;
+			document.getElementById('GPSOrg').innerHTML = dbdc.GPSOrg;
+			document.getElementById('IP').innerHTML = dbdc.IP;
+			document.getElementById('statusDC').value = dbdc.status;
+			document.getElementById('DCType').value = dbdc.DCType;
+			
+			
+		}
+		else{	
+			alert(dcid + ' Not in db');
+			return;
+		}
+		var repciId = dbdc.repciId;
+		if (repciId < 0){
+			repciId = -repciId;
+			var dbrex =  await db.rexs.get(repciId);
+			document.getElementById('TitutoRex').innerHTML = dbrex.titulo;		
+		}
+		var CantRows=0;
+		db.Tuplas.where('idDC').equals(-dcid).each(function (Tp){
+																var row=document.getElementById('DcTable').insertRow(CantRows);
+																var cel1=row.insertCell(0);
+																cel1.innerHTML=Tp.value1;
+																var cel2=row.insertCell(1);
+																cel2.style.wordBreak="break-word";
+																cel2.innerHTML=Tp.value2.slice(0,Tp.value2.indexOf('dc(')-1);
+																CantRows++;
+																});	
+		window.parent.ActivaBotones(0,0);window.parent.ActivaBotonesEnGrid(-dcid,0,0);
+}
+ 
+</script>
+</head><body onload="getdcinfo(this);">
+ <div class="container">
+  <!-- Normal Demo-->
+  <div class="column">
+    <!-- Post-->
+    <div class="post-module">
+      <!-- Thumbnail-->
+      <div class="thumbnail">
+		<div class="fotoautor" id="fotoa">
+			<img id="FotoAutor" style="border-radius: 50%;border:black;border-style:solid;" src="" title=""  onerror="this.error=null;this.src='../aicons/default0.png'"/> 
+		</div>
+		<img id="DcImage" src="" style="background-color:white;" onload="normalImage()"  onerror="this.error=null;noimage(this);" onclick="fullImage()" onmousemove="trackmouse(event)" /> 
+		<embed id="DcPdf" width="100%" heigth = "100%" type="application/pdf" style="background-color:white;" onload="normalPdf()"  onerror="noPdf(this);" onfocus="fullPdf()">
+      </div>
+      <!-- Post Content-->
+      <div class="post-content" id="DcContent" style="">
+        <div id="TitutoRex" class="category" onclick="fullImage()" Title=""></div>
+        <h1 id="comment" class="title"></h1>
+        <h2 id="DCTypeTitle" class="sub_title"></h2>
+        <p class="description novalido" >
+		<table id='DcTable' border='0' style='padding:4px' width="100%">
+		
+		
+		</Table>
+		</p>		
+		<input type="hidden" id="statusDC" class="statusDC" value="">
+		<input type="hidden" id="DCType" class="DCType" value="">
+        <div id="DcFooter" class="post-meta">
+			<div><span class="comments"><i class="fa fa-user-circle-o"></i> <a id="creator" href="#">  </a> </span><span ><i class="fa fa-clock-o"></i> <span id="when_date" class="timestamp"></span> </span></div>
+			<div ><span class="comments"><i class="fa fa-map-marker"></i> <a id="GPSOrg" href="#">  </a> </span><span class="timestamp"><i class="fa fa-wifi"></i> <span id="IP"></span> </span></div>
+		</div>
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+</body></html>

@@ -1,0 +1,32 @@
+[
+    {
+        "id": "47264",
+        "name": "Anaco",
+        "state_id": "4021"
+        },
+        {
+        "id": "47265",
+        "name": "Barcelona",
+        "state_id": "4021"
+        },
+        {
+        "id": "47266",
+        "name": "Cantaura",
+        "state_id": "4021"
+        },
+        {
+        "id": "47267",
+        "name": "El Tigre",
+        "state_id": "4021"
+        },
+        {
+        "id": "47268",
+        "name": "Puerto la Cruz",
+        "state_id": "4021"
+        },
+        {
+        "id": "47269",
+        "name": "San Jose de Guanipa",
+        "state_id": "4021"
+        }
+]

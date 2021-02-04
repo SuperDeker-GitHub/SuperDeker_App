@@ -1,0 +1,84 @@
+{
+	"name":"DEPRECATED",
+	"id":8625,
+	"icon":"8625.png",
+	"markericon": "8625.png",
+	"logs":
+	[
+		{ 
+			"Id": 0,
+			"Desc":"DEPRECATED",
+			"Icon":"8625.png",
+			"DCs":
+			[
+				{
+					"Code":"CMSApprovReqFolder_DEPRECATED",
+					"Desc":"Approval Rerquest Folder DEPRECATED",
+					"tituloDossier":"Glove ApprovalRequest",
+					"tituloDC": "ApprovalRequest ShortDescript",
+					"default":"false",
+					"req":"false",
+					"fotostatus":"noreq",
+					"concomentario":"false",
+					"NoShow":"true",
+					"AutoSave":"true",
+					"read":["administration"],
+					"new": ["administration"],
+					"edit":["administration"],
+					"DcStructure": 
+					[
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"DEPRECATED",
+							"rethead":"DEPRECATED",
+							"type":"EdtPR",
+							"req": "false",
+							"value":"DEPRECATED"
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						}
+					]
+				}
+			]
+		}
+    ]
+}

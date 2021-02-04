@@ -1,0 +1,19 @@
+[
+    {"desc":"SELECCIONE UNA UNIDAD DE MEDIDA","value":""},
+    {"desc":"un","value":"un"},
+    {"desc":"Caja","value":"Caja"},
+    {"desc":"Caja x 10","value":"Caja x 10"},
+    {"desc":"Caja x 100","value":"Caja x 100"},
+    {"desc":"1/2 Docena","value":"1/2 Docena"},
+    {"desc":"Docena","value":"Docena"},
+    {"desc":"Resma","value":"Resma"	},
+    {"desc":"Mt","value":"Mt"},
+    {"desc":"cm","value":"cm"},
+    {"desc":"lt","value":"lt"},
+    {"desc":"M3","value":"M3"},
+    {"desc":"Gl","value":"Gl"},
+    {"desc":"Kg","value":"Kg"},
+    {"desc":"Tm","value":"Tm"},
+    {"desc":"Saco","value":"Saco"},
+    {"desc":"Quintal","value":"Quintal"}
+]

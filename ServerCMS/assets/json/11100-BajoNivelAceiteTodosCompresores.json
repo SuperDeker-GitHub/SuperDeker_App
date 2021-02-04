@@ -1,0 +1,26 @@
+[
+	{
+		"desc":"SELECCIONA LA POSIBLE CAUSA",
+		"value":""
+	},
+	{
+		"desc":"Separador De Aceite No Funciona.",
+		"value":"11110-SeparadorAceiteNoFunciona"
+	},
+	{
+		"desc":"Linea De Aceite Obstruida",
+		"value":"11120-BajoNivelAceiteTodosCompresoresGrupoSuccion"
+	},
+	{
+		"desc":"Filtro De Aceite Tapado",
+		"value":"11130-BajoNivelAceiteCompresoresIndividualmente"
+	},
+	{
+		"desc":"Insuficiente Aceite En El Sistema",
+		"value":"11140-ControladorElectricoNoFuncionaManeraCorrecta"
+	},
+	{
+		"desc":"Valvula OCV-20 Defectuosa",
+		"value":"11150-CompresorNoArranca"
+	}
+]
