@@ -1,0 +1,34 @@
+[
+	{
+		"desc":"SELECCIONA EL SINTOMA",
+		"value":""
+	},
+	{
+		"desc":"Disparado por Disposit.de Enfriam.de Cabezal (Demang Cooling.",
+		"value":"13100-DisparadoDispositivoEnfriamientoCabezalDC"
+	},
+	{
+		"desc":"Dispar.x Disposit.de Segur.Mecan.de Alta Presion(Presostato de Alta).",
+		"value":"13200-DisparadoDispositivoSeguridadMecanicoAltaPresionPA"
+	},
+	{
+		"desc":"Direcc.de Red de Comunic.Fuera de Linea con el Controlador",
+		"value":"13300-DireccionRedComunicacionFueraLineaControlador"
+	},
+	{
+		"desc":"Salida de Rele de Tarjeta de Control en Corto",
+		"value":"13400-SalidaReleTarjetaControlCorto"
+	},
+	{
+		"desc":"Temporizador Danado",
+		"value":"13500-TemporizadorDanado"
+	},
+	{
+		"desc":"Modulo de Protecc.Interno Sin Salida de Tension Electrica.",
+		"value":"13600-ModuloProteccionInternoSinSalidaTensionElectrica"
+	},
+	{
+		"desc":"Contactor Sin Salida de Tension Electrica",
+		"value":"13700-ContadorSinSalidaTensionElectrica"
+	}
+]

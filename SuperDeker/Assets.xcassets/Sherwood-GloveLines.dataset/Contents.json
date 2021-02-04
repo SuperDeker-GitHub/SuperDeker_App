@@ -1,0 +1,13 @@
+{
+  "data" : [
+    {
+      "filename" : "Sherwood-GloveLines.json",
+      "idiom" : "universal",
+      "universal-type-identifier" : "public.json"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

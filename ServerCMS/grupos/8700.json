@@ -1,0 +1,310 @@
+{
+	"name":"CMS_Users",
+	"id":8700,
+	"icon":"8700.png",
+	"markericon": "8700.png",
+	"logs":
+	[
+		{ 
+			"Id": 0,
+			"Desc":"CMS Users",
+			"Icon":"8700.png",
+			"DCs":
+			[
+				{
+					"Code":"CMSUSER",
+					"Desc":"CMS User",
+					"tituloDossier":"User_Name",
+					"tituloDC": "CMSUserID -MobilePhone",
+					"default":"false",
+					"req":"false",
+					"fotostatus":"noreq",
+					"concomentario":"false",
+					"NoShow":"true",
+					"AutoSave":"true",
+					"read":["administration"],
+					"new": ["administration"],
+					"edit":["administration"],
+					"DcStructure": 
+					[
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+                            "desc":"CMS User ID",
+                            "rethead":"CMSUserID",
+                            "type":"Edt",
+                            "req": "true",
+							"unique":"true",
+                            "value":[]
+                        },
+						{
+                            "desc":"CMS User Name",
+                            "rethead":"User_Name",
+                            "type":"Edt",
+                            "req": "true",
+                            "value":[]
+                        },
+                        {
+                            "desc":"Mobile Phone",
+                            "rethead":"MobilePhone",
+                            "type":"Telf",
+                            "req": "true",
+                            "value":[]
+                        },
+                        {
+                            "desc":"Email @",
+                            "rethead":"User_Email",
+                            "type":"Email",
+                            "req": "false",
+                            "value":[]
+                        },
+                        {
+                            "desc":"Observations",
+                            "rethead":"Observation",
+                            "type":"EdtML",
+                            "req": "false",
+                            "value":[]
+                        },
+                        {
+                            "desc":" ",
+                            "rethead":"",
+                            "type":"Txt",
+                            "req": "false",
+                            "value":[]
+                        },
+                        {
+                            "desc":"",
+                            "rethead":"",
+                            "type":"Separator",
+                            "req": "false",
+                            "value":[]
+                        },
+                        {
+                            "desc":" ",
+                            "rethead":"",
+                            "type":"Txt",
+                            "req": "false",
+                            "value":[]
+						}
+					]
+				},
+				{
+					"Code":"USER_PROFILE",
+					"Desc":"User Profile",
+					"tituloDC": "CMSUserID - Profile",
+					"default":"false",
+					"req":"true",
+					"fotostatus":"noreq",
+					"concomentario":"false",
+					"NoShow":"true",
+					"AutoSave":"true",
+					"read":["administration"],
+					"new": ["administration"],
+					"edit":["administration"],
+					"DcStructure": 
+					[
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+                            "desc":"CMS User ID",
+                            "rethead":"CMSUserID",
+                            "type":"EdtPR",
+							"Source":"thisDossier.CMSUser.CMSUserID",
+                            "req": "true",
+                            "value":[]
+                        },
+                        {
+                            "desc":"Dossier Group",
+                            "rethead":"DossierGroup",
+                            "type":"Check",
+                            "req": "true",
+                            "value":
+                            [
+                                {
+                                    "desc":"CMS Splash-8600"
+                                },
+                                {
+                                    "desc":"Stick Brands-8620"
+                                },
+                                {
+                                    "desc":"Glove Brands-8630"
+                                },
+                                {
+                                    "desc":"Age Levels-8650"
+                                },
+                                {
+                                    "desc":"Skill Levels-8660"
+                                },
+								{
+                                    "desc":"Countries-8690"
+                                }
+                            ]
+                        },
+                        {
+                            "desc":"UserProfile",
+                            "rethead":"Profile",
+                            "type":"Spin",
+                            "req": "true",
+                            "value":
+                            [
+                                {
+                                    "desc":"administration"
+                                },
+                                {
+                                    "desc":"legal"
+                                },
+                                {
+                                    "desc":"marketing"
+                                },
+                                {
+                                    "desc":"prodmanager"
+                                }
+                            ]
+                        },
+                        {
+                            "desc":" ",
+                            "rethead":"",
+                            "type":"Txt",
+                            "req": "false",
+                            "value":[]
+                        },
+                        {
+                            "desc":"",
+                            "rethead":"",
+                            "type":"Separator",
+                            "req": "false",
+                            "value":[]
+                        },
+                        {
+                            "desc":" ",
+                            "rethead":"",
+                            "type":"Txt",
+                            "req": "false",
+                            "value":[]
+						}
+					]
+				},
+				{
+					"Code":"ADMINOPTIONS",
+					"Desc":"User Admin Options",
+					"tituloDC": "CMSUserID - Maintenance",
+					"default":"false",
+					"req":"true",
+					"fotostatus":"noreq",
+					"concomentario":"false",
+					"NoShow":"false",
+					"AutoSave":"true",
+					"read":["administration"],
+					"new": ["administration"],
+					"edit":["administration"],
+					"DcStructure": 
+					[
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+                            "desc":"CMS User ID",
+                            "rethead":"CMSUserID",
+                            "type":"EdtPR",
+							"Source":"thisDossier.CMSUser.CMSUserID",
+                            "req": "true",
+                            "value":[]
+                        },
+                        {
+                            "desc":"Maintenance",
+                            "rethead":"Maintenance",
+                            "type":"Spin",
+                            "req": "true",
+                            "value":
+                            [
+                                {
+                                    "desc":"Delete User"
+                                },
+                                {
+                                    "desc":"Reactivate User"
+                                }
+                            ]
+                        },
+                        {
+                            "desc":" ",
+                            "rethead":"",
+                            "type":"Txt",
+                            "req": "false",
+                            "value":[]
+                        },
+                        {
+                            "desc":"",
+                            "rethead":"",
+                            "type":"Separator",
+                            "req": "false",
+                            "value":[]
+                        },
+                        {
+                            "desc":" ",
+                            "rethead":"",
+                            "type":"Txt",
+                            "req": "false",
+                            "value":[]
+						}
+					]
+				}
+			]
+		}
+    ]
+}

@@ -1,0 +1,26 @@
+[
+	{
+		"desc":"SELECCIONA EL SINTOMA",
+		"value":""
+	},
+	{
+		"desc":"Serpentin Evaporador Bloqueado",
+		"value":"12100-SerpentinEvaporadorBloqueado"
+	},
+	{
+		"desc":"Bandeja de Drenaje Obstruida con Hielo.",
+		"value":"12200-BandejaDrenajeOobstruidaHielo"
+	},
+	{
+		"desc":"Compresores o Sist.Parado por Alta Presion de Descarga",
+		"value":"12300-CompresoresSistemaParadoAltaPresionDescarga"
+	},
+	{
+		"desc":"Ventiladores/Condensadores",
+		"value":"12400-Ventiladores-Condensadores"
+	},
+	{
+		"desc":"Retorno de Refriger.Liquido a los Compresores",
+		"value":"12500-RetornoRefrigeranteLiquidoCompresores"
+	}
+]

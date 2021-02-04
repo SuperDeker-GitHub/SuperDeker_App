@@ -1,0 +1,11 @@
+[
+    {"desc":"SELECCIONE PERFIL AUTORIZADO","value":""},
+    {"desc":"Personal y Nómina","value":"Personal"},
+    {"desc":"Almacén","value":"Almacén"},
+    {"desc":"Emisión y Seguimiento de Facturas","value":"Facturas"},
+    {"desc":"Costos y Precios","value":"Costos"},
+    {"desc":"Embalaje-Transporte-Servicios","value":"Servicios"},
+    {"desc":"Ventas de Productos Recibir RDC/Emitir Cotiz/Procesar ODC","value":"Ventas"},
+    {"desc":"Compras Emitir RDC/Recib.Cotiz/Emitir ODC","value":"Compras"},
+    {"desc":"Registro de Clientes","value":"Clientes"}
+]

@@ -1,0 +1,187 @@
+{
+	"name":"App Sticks",
+	"id":8500,
+	"icon":"8500.png",
+	"markericon": "8500.png",
+	"logs":
+	[
+		{ 
+			"Id": 0,
+			"Desc":"App Sticks",
+			"Icon":"8500.png",
+			"DCs":
+			[
+				{
+					"Code":"APPSTICKBRAND",
+					"Desc":"App Stick Brand",
+					"tituloDossier":"StickBrand",
+					"tituloDC": "StickBrand",
+					"default":"false",
+					"req":"false",
+					"fotostatus":"noreq",
+					"concomentario":"false",
+					"NoShow":"true",
+					"AutoSave":"true",
+					"unique":"true",
+					"read":["administration","operator"],
+					"new": ["administration"],
+					"edit":["administration"],
+					"DcStructure": 
+					[
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Stick Brand",
+							"rethead":"StickBrand",
+							"type":"Edt",
+							"req": "true",
+							"value":[]
+						},
+						{
+							"desc":"Short Description",
+							"rethead":"ShortDescript",
+							"type":"Edt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Comment",
+							"rethead":"Comment",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						}
+					]
+				},
+				{
+					"Code":"APPSTICKPRODLINE",
+					"Desc":"App Stick Product Line",
+					"tituloDC": "StProductLine",
+					"default":"false",
+					"req":"false",
+					"fotostatus":"noreq",
+					"concomentario":"false",
+					"NoShow":"false",
+					"AutoSave":"true",
+					"read":["administration","operator"],
+					"new": ["administration"],
+					"edit":["administration"],
+					"DcStructure": 
+					[
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Stick Brand",
+							"rethead":"StickBrand",
+                            "type":"Edt",
+							"Source":"thisDossier.APPSTICKBRAND.StickBrand",
+                            "req": "false",
+                            "value":[]
+                        },
+						{
+							"desc":"Stick Product Line",
+							"rethead":"StProductLine",
+							"type":"Edt",
+							"req": "true",
+							"value":[]
+						},
+						{
+							"desc":"Short Description",
+							"rethead":"ShortDescript",
+							"type":"Edt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Comment",
+							"rethead":"Comment",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						}
+					]
+				}
+			]
+		}
+    ]
+}

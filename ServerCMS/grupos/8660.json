@@ -1,0 +1,245 @@
+{
+	"name":"Skill Level",
+	"id":8660,
+	"icon":"8660.png",
+	"markericon": "8660.png",
+	"logs":
+	[
+		{ 
+			"Id": 0,
+			"Desc":"Skill Levels",
+			"Icon":"8660.png",
+			"DCs":
+			[
+				{
+					"Code":"COUNTRYSKILLLEVEL",
+					"Desc":"Country Skill Level",
+					"tituloDossier":"ShortName - Skill Level",
+					"tituloDC": "ShortName",
+					"default":"false",
+					"req":"false",
+					"fotoreq": "false",
+					"concomentario":"false",
+					"NoShow":"true",
+					"AutoSave":"true",
+					"read":["administration"],
+					"new": ["administration"],
+					"edit":["administration"],
+					"DcStructure": 
+					[
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Country Short Name",
+							"rethead":"ShortName",
+							"type":"Spin",
+							"req": "true",
+							"Source":"DC.COUNTRY.ShortName",
+							"value": []
+						},
+						{
+							"desc":"Ref Skill Web Link",
+							"rethead":"RefSkill",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Contact Person",
+							"rethead":"Contact",
+							"type":"Edt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Mobile Phone",
+							"rethead":"Mobile",
+							"type":"Telf",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"email @",
+							"rethead":"email",
+							"type":"Email",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Comment",
+							"rethead":"Comment",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						}
+					],
+					"Sellos":
+					[
+						{
+							"desc":"Approved",
+							"valor":"1",
+							"src":"assets/sello/Approved.png",
+							"id":"Approved",
+							"read":["administrador"],
+							"new": ["administrador"],
+							"edit":["administrador"]
+						},
+						{
+							"desc":"Rejected",
+							"valor":"2",
+							"src":"assets/sello/Rejected.png",
+							"id":"Rejected",
+							"read":["administrador"],
+							"new": ["administrador"],
+							"edit":["administrador"]
+						},
+						{
+							"desc":"annulled",
+							"valor":"-1",
+							"src":"./assets/sello/annulled.png",
+							"id":"annulled",
+							"read":["administrador"],
+							"new": ["administrador"],
+							"edit":["administrador"]
+						}
+					]
+				},
+				{
+					"Code":"SKILLLEVEL",
+					"Desc":"Skill Level",
+					"tituloDC": "SkillLevel",
+					"default":"false",
+					"req":"false",
+					"fotostatus":"noreq",
+					"concomentario":"false",
+					"NoShow":"false",
+					"AutoSave":"true",
+					"read":["administration"],
+					"new": ["administration"],
+					"edit":["administration"],
+					"DcStructure": 
+					[
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Country Name",
+							"rethead":"ShortName",
+							"type":"EdtPR",
+							"req": "true",
+							"Source":"thisDossier.COUNTRYSKILLLEVEL.ShortName",
+							"value": []
+						},
+						{
+							"desc":"Skill Level",
+							"rethead":"SkillLevel",
+							"type":"Edt",
+							"req": "true",
+							"value":[]
+						},
+						{
+							"desc":"Short Description",
+							"rethead":"ShortDescript",
+							"type":"Edt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Ref Skill Level Link",
+							"rethead":"RefSkillLevel",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Comment",
+							"rethead":"Comment",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						}
+					]
+				}
+			]
+		}
+    ]
+}

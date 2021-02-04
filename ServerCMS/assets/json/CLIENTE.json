@@ -1,0 +1,42 @@
+[
+	{
+		"desc":"SELECCIONA CLIENTE",
+		"value":""
+	},
+	{
+		"desc":"Central Madeirense C.A.",
+		"value":"11000-CM"
+	},
+	{
+		"desc":"Automercados Plaza's",
+		"value":"12000-AP"
+	},
+	{
+		"desc":"Automercados Luvebras",
+		"value":"13000-AL"
+	},
+	{
+		"desc":"Automercados Excelsior Gama",
+		"value":"14000-AEG"
+	},
+	{
+		"desc":"PLANSUAREZ C.A.",
+		"value":"15000-PS"
+	},
+	{
+		"desc":"Supermercado La Franco Italiana",
+		"value":""
+	},
+	{
+		"desc":"Supermercado La Torre",
+		"value":""
+	},
+	{
+		"desc":"Red de Abastos Bicentenario, S.A.",
+		"value":""
+	},
+	{
+		"desc":"Cadena Supermercados Super Líder",
+		"value":""
+	}
+]

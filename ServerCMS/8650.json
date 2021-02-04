@@ -1,0 +1,215 @@
+{
+	"name":"Glove Brands",
+	"id":8650,
+	"icon":"8650.png",
+	"markericon": "8650.png",
+	"logs":
+	[
+		{ 
+			"Id": 0,
+			"Desc":"Sticks",
+			"Icon":"8650.png",
+			"DCs":
+			[
+				{
+					"Code":"GLOVEBRAND",
+					"Desc":"Glove Brands",
+					"tituloDossier":"GloveBrand",
+					"tituloDC": "GloveBrand",
+					"default":"false",
+					"req":"false",
+					"fotostatus":"noreq",
+					"concomentario":"false",
+					"NoShow":"true",
+					"AutoSave":"true",
+					"read":["administration"],
+					"new": ["administration"],
+					"edit":["administration"],
+					"DcStructure": 
+					[
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Glove Brand",
+							"rethead":"GloveBrand",
+							"type":"Edt",
+							"req": "true",
+							"unique":"true",
+							"value":[]
+						},
+						{
+							"desc":"Short Description",
+							"rethead":"ShortDescription",
+							"type":"Edt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Long Description",
+							"rethead":"LongDescription",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Ref Glove Brand Link",
+							"rethead":"RefGloveBrand",
+							"type":"Edt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Observations",
+							"rethead":"Observations",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						}
+					]
+				},
+				{
+					"Code":"GLOVEBRANDMODEL",
+					"Desc":"Glove Brand Model",
+					"tituloDC": "GlBrandModel",
+					"default":"false",
+					"req":"false",
+					"fotostatus":"noreq",
+					"concomentario":"false",
+					"NoShow":"false",
+					"AutoSave":"true",
+					"read":["administration"],
+					"new": ["administration"],
+					"edit":["administration"],
+					"DcStructure": 
+					[
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Glove Brand",
+							"rethead":"GloveBrand",
+                            "type":"EdtPR",
+							"Source":"thisDossier.GLOVEBRAND.GloveBrand",
+                            "req": "true",
+                            "value":[]
+                        },
+						{
+							"desc":"Glove Brand Model",
+							"rethead":"GlBrandModel",
+							"type":"Edt",
+							"req": "true",
+							"value":[]
+						},
+						{
+							"desc":"Short Description",
+							"rethead":"ShortDescription",
+							"type":"Edt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Long Description",
+							"rethead":"LongDescription",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Ref Glove Model Link",
+							"rethead":"RefGloveModel",
+							"type":"Edt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Observations",
+							"rethead":"Observations",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						}
+					]
+				}
+			]
+		}
+    ]
+}

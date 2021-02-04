@@ -1,0 +1,13 @@
+[
+    {"desc":"SELECCIONE GRUPO AUTORIZADO","value":""},
+    {"desc":"20000-Visita Comercial","value":"20000"},
+    {"desc":"21000-Personal","value":"21000"},
+    {"desc":"22000-Almacén","value":"22000"},
+    {"desc":"23000-Facturación","value":"23000"},
+    {"desc":"23500-Costos","value":"23500"},
+    {"desc":"24000-Embalaje-Transporte-Servicios","value":"24000"},
+    {"desc":"25000-Ventas","value":"25000"},
+    {"desc":"26000-Compras","value":"26000"},
+    {"desc":"27000-Clientes","value":"27000"},
+    {"desc":"27100-Gastos","value":"27000"}
+]

@@ -1,0 +1,14 @@
+[
+	{
+		"desc":"SELECCIONA LA POSIBLE CAUSA",
+		"value":""
+	},
+	{
+		"desc":"Igualac.De Presion Del Carter Con Presion De Succion Del Sistema", 
+		"value":"11210-IgualacionPresionCarterPresionSuccionSistema"
+	},
+	{
+		"desc":"Reguladora De Presion De Aceite Danada",
+		"value":"11220-ReguladoraPresionAceiteDanada"
+	}
+]

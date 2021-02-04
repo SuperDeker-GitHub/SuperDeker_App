@@ -1,0 +1,26 @@
+[
+	{
+		"desc":"SELECCIONA EL SINTOMA",
+		"value":""
+	},
+	{
+		"desc":"Bajo Nivel De Aceite En Todos Los Compresores.", 
+		"value":"11100-BajoNivelAceiteTodosCompresores"
+	},
+	{
+		"desc":"Bajo Niv.De Aceite En Todos Los Compres De Un Grupo De Succion.",  
+		"value":"11200-BajoNivelAceiteTodosCompresoresGrupoSuccion"
+	},
+	{
+		"desc":"Bajo Niv.De Aceite En Compres.Individualmente.", 
+		"value":"11300-BajoNivelAceiteCompresoresIndividualmente"
+	},
+	{
+		"desc":"Controlador Electron.No Funciona De Manera CORRECTA.", 
+		"value":"11400-ControladorElectricoNoFuncionaManeraCorrecta"
+	},
+	{
+		"desc":"Compresor No Arranca.",
+		"value":"11500-CompresorNoArranca"
+	}
+]

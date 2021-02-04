@@ -1,0 +1,377 @@
+{
+	"name":"Approval Request",
+	"id":8670,
+	"icon":"8670.png",
+	"markericon": "8670.png",
+	"logs":
+	[
+		{ 
+			"Id": 0,
+			"Desc":"Approval",
+			"Icon":"8670.png",
+			"DCs":
+			[
+				{
+					"Code":"CMSAPPROVAL",
+					"Desc":"CMS Approval",
+					"tituloDossier":"ApprovalDateRequest",
+					"tituloDC": "ShortDescript",
+					"default":"false",
+					"req":"false",
+					"fotostatus":"noreq",
+					"concomentario":"false",
+					"NoShow":"true",
+					"AutoSave":"true",
+					"read":["administration"],
+					"new": ["administration"],
+					"edit":["administration"],
+					"DcStructure": 
+					[
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Approval Request Folder",
+							"rethead":"ApprovalDateRequest",
+							"type":"Date",
+							"req": "true",
+							"value":"now"
+						},
+						{
+							"desc":"Short Description",
+							"rethead":"ShortDescript",
+							"type":"Edt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Long Description",
+							"rethead":"LongDescription",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Comment",
+							"rethead":"Comment",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						}
+					]
+				},
+				{
+					"Code":"APPROVALCMSBrand",
+					"Desc":"APPROVAL CMS Brand Requests",
+					"tituloDC": "Brand",
+					"default":"false",
+					"req":"false",
+					"fotostatus":"noreq",
+					"concomentario":"false",
+					"NoShow":"false",
+					"AutoSave":"true",
+					"read":["administration"],
+					"new": ["administration"],
+					"edit":["administration"],
+					"DcStructure": 
+					[
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Search for Brand Approval Requests",
+							"rethead":"DC.CMSBRAND.Brand",
+							"type":"Spin",
+							"req": "true",
+							"SourceStatus":"3",
+							"value": []
+						},
+						{
+							"desc":"Request Type",
+							"rethead":"RequestType",
+							"type":"EdtPR",
+							"req": "false",
+							"value": []
+				
+						{
+							"desc":"Short Description",
+							"rethead":"ShortDescript",
+							"type":"Edt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Long Description",
+							"rethead":"LongDescript",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Ref Brand Link",
+							"rethead":"RefBrand",
+							"type":"Edt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Comment/Reason to Add, Mod or Delete",
+							"rethead":"Comment",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						}
+					],
+                    "Sellos":
+                    [
+                        {
+                            "desc":"Approved",
+                            "valor":"1",
+                            "src":"assets/sello/Approved.png",
+                            "id":"Approved",
+                            "read":["administration"],
+                            "new": ["administration"],
+                            "edit":["administration"]
+                        },
+                        {
+                            "desc":"Rejected",
+                            "valor":"2",
+                            "src":"assets/sello/Rejected.png",
+                            "id":"Rejected",
+                            "read":["administration"],
+                            "new": ["administration"],
+                            "edit":["administration"]
+                        },
+                        {
+                            "desc":"annulled",
+                            "valor":"-1",
+                            "src":"./assets/sello/annulled.png",
+                            "id":"annulled",
+                            "read":["administration"],
+                            "new": ["administration"],
+                            "edit":["administration"]
+                        }
+                    ]
+				},
+				{
+					"Code":"APPROVALCMSPRODLINE",
+					"Desc":"APPROVAL CMS Product Line Requests",
+					"tituloDC": "Brand StProductLine",
+					"default":"false",
+					"req":"false",
+					"fotostatus":"noreq",
+					"concomentario":"false",
+					"NoShow":"false",
+					"AutoSave":"true",
+					"read":["administration"],
+					"new": ["administration"],
+					"edit":["administration"],
+					"DcStructure": 
+					[
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Search for Brand Approval Requests",
+							"rethead":"DC.CMSBRAND.Brand",
+							"type":"Spin",
+							"req": "false",
+							"SourceStatus":"3",
+							"value": []
+						},
+						{
+							"desc":"Brand",
+							"rethead":"Brand",
+                            "type":"EdtPR",
+							"Source":"thisDossier.STICKBRAND.StickBrand",
+                            "req": "false",
+                            "value":[]
+                        },
+						{
+							"desc":"Stick Product Line",
+							"rethead":"StProductLine",
+							"type":"Edt",
+							"req": "true",
+							"value":[]
+						},
+						{
+							"desc":"Short Description",
+							"rethead":"ShortDescript",
+							"type":"Edt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Long Description",
+							"rethead":"LongDescript",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Ref Product Line Link",
+							"rethead":"RefProductLine",
+							"type":"Edt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Comment/Reason to Add, Mod or Delete",
+							"rethead":"Comment",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						}
+					],
+                    "Sellos":
+                    [
+                        {
+                            "desc":"Approved",
+                            "valor":"1",
+                            "src":"assets/sello/Approved.png",
+                            "id":"Approved",
+                            "read":["administration"],
+                            "new": ["administration"],
+                            "edit":["administration"]
+                        },
+                        {
+                            "desc":"Rejected",
+                            "valor":"2",
+                            "src":"assets/sello/Rejected.png",
+                            "id":"Rejected",
+                            "read":["administration"],
+                            "new": ["administration"],
+                            "edit":["administration"]
+                        },
+                        {
+                            "desc":"annulled",
+                            "valor":"-1",
+                            "src":"./assets/sello/annulled.png",
+                            "id":"annulled",
+                            "read":["administration"],
+                            "new": ["administration"],
+                            "edit":["administration"]
+                        }
+                    ]
+				},
+			]
+		}
+    ]
+}

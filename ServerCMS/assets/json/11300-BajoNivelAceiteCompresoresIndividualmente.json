@@ -1,0 +1,34 @@
+[
+	{
+		"desc":"SELECCIONA LA POSIBLE CAUSA",
+		"value":""
+	},
+	{
+		"desc":"Control de Nivel de Aceite Mecanico Danado",
+		"value":"11310-ControlNivelAceiteMecanicoDanado"
+	},
+	{
+		"desc":"Modulo de Sentronic Danado",
+		"value":"11320-ModuloSentronicDanado"
+	},
+	{
+		"desc":"Valvula de Sentronic Obstruida",
+		"value":"11330-ValvulaSentronicObstruida"
+	},
+	{
+		"desc":"Sensor de Presion de Aceite Danado",
+		"value":"11340-SensorPresionAceiteDanado"
+	},
+	{
+		"desc":"Presion Diferen.de Aceite en Bomba por Debajo de las 10Lbs",
+		"value":"11350-PresionDiferencialAceiteBombaPorDebajo10LBS"
+	},
+	{
+		"desc":"Presion del Carter Mayor o Igual a la Presion de Succion",
+		"value":"11360-PresionCarterMayorIgualPresionSuccion"
+	},
+	{
+		"desc":"Modulo de Sentronic Danado",
+		"value":"11370-ModuloSentronicDanado"
+	}
+]

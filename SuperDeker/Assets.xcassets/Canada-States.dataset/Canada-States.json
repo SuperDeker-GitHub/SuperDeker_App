@@ -1,0 +1,67 @@
+[
+    {
+      "id": "663",
+      "name": "Alberta",
+      "country_id": "38"
+    },
+    {
+      "id": "664",
+      "name": "British Columbia",
+      "country_id": "38"
+    },
+    {
+      "id": "665",
+      "name": "Manitoba",
+      "country_id": "38"
+    },
+    {
+      "id": "666",
+      "name": "New Brunswick",
+      "country_id": "38"
+    },
+    {
+      "id": "667",
+      "name": "Newfoundland and Labrador",
+      "country_id": "38"
+    },
+    {
+      "id": "668",
+      "name": "Northwest Territories",
+      "country_id": "38"
+    },
+    {
+      "id": "669",
+      "name": "Nova Scotia",
+      "country_id": "38"
+    },
+    {
+      "id": "670",
+      "name": "Nunavut",
+      "country_id": "38"
+    },
+    {
+      "id": "671",
+      "name": "Ontario",
+      "country_id": "38"
+    },
+    {
+      "id": "672",
+      "name": "Prince Edward Island",
+      "country_id": "38"
+    },
+    {
+      "id": "673",
+      "name": "Quebec",
+      "country_id": "38"
+    },
+    {
+      "id": "674",
+      "name": "Saskatchewan",
+      "country_id": "38"
+    },
+    {
+      "id": "675",
+      "name": "Yukon",
+      "country_id": "38"
+    }
+]

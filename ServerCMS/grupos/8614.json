@@ -1,0 +1,156 @@
+{
+	"name":"Video",
+	"id":8614,
+	"icon":"8614.png",
+	"markericon": "8614.png",
+	"logs":
+	[
+		{ 
+			"Id":0,
+			"Desc":"Institutional Videos",
+			"Icon":"8614.png",
+			"DCs":
+			[
+				{
+					"Code":"VIDEO Header",
+					"Desc":"Institutional Video ",
+					"tituloDossier":"Date2Publish->EndingDate",
+					"tituloDC": "CountryName ShortDescription",
+					"default":"false",
+					"req":"false",
+					"fotoreq": "false",
+					"concomentario":"false",
+					"NoShow":"true",
+					"AutoSave":"true",
+					"read":["administration"],
+					"new": ["administration"],
+					"edit":["administration"],
+					"DcStructure": 
+					[
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Country Name",
+							"rethead":"CountryName",
+                            "type":"Spin",
+							"Source":"DC.COUNTRY.CountryName",
+                            "req": "true",
+                            "value":[]
+                        },
+						{
+							"desc":"Video Name",
+							"rethead":"VideoName",
+							"type":"Edt",
+							"req": "true",
+							"unique":"true",
+							"value": []
+						},
+						{
+							"desc":"Short Description",
+							"rethead":"ShortDescription",
+							"type":"Edt",
+							"req": "true",
+							"value":[]
+						},
+						{
+							"desc":"Long Description",
+							"rethead":"LongDescription",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Ref Link",
+							"rethead":"RefLink",
+							"type":"Edt",
+							"req": "true",
+							"value":[]
+						},
+						{
+							"desc":"Video Contact Person",
+							"rethead":"Contact",
+							"type":"Edt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Video Mobile Phone",
+							"rethead":"Mobile",
+							"type":"Telf",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"email",
+							"rethead":"email",
+							"type":"Email",
+							"req": "false",
+							"value":[]
+						},
+                        {
+                            "desc":"Date to Publish",
+                            "rethead":"Date2Publish",
+                            "type":"Date",
+                            "req": "true",											
+                            "value":"now"
+                        },
+                        {
+                            "desc":"Ending Date",
+                            "rethead":"EndingDate",
+                            "type":"Date",
+                            "req": "true",											
+                            "value":"now"
+                        },
+                        {
+                            "desc": "Observation",
+                            "rethead": "Observation",
+                            "type": "EdtML",
+                            "req": "false",
+                            "value": []
+                        },
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						}
+					]
+				}
+			]
+		}
+	]
+}

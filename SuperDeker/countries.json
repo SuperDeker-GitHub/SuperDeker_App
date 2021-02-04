@@ -1,0 +1,24 @@
+{
+  "countries": [
+    {
+      "id": "231",
+      "sortname": "US",
+      "name": "United States"
+    },
+    {
+      "id": "232",
+      "sortname": "UM",
+      "name": "United States Minor Outlying Islands"
+    },
+    {
+      "id": "38",
+      "sortname": "CA",
+      "name": "Canada"
+    },
+    {
+      "id": "237",
+      "sortname": "VE",
+      "name": "Venezuela"
+    }
+  ]
+}

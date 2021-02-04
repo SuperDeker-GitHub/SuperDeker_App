@@ -1,0 +1,214 @@
+[
+	{
+		"desc":"SELECCIONA SUCURSAL Central Madeirense",
+		"value":""
+	},
+	{
+		"desc":"Guatire",
+		"value":"11000-CMG"
+	},
+	{
+		"desc":"La Alameda",
+		"value":"11000-CMLA"
+	},
+	{
+		"desc":"Manzanares",
+		"value":"11000-CMMA"
+	},
+	{
+		"desc":"Parque Humboldt",
+		"value":"11000-CMPH"
+	},
+	{
+		"desc":"IPSFA BARQUISIMETO",
+		"value":"11000-CMIB"
+	},
+	{
+		"desc":"Cagua",
+		"value":"11000-CMC"
+	},
+	{
+		"desc":"La California",
+		"value":"11000-CMLCA"
+	},
+	{
+		"desc":"El Paraiso",
+		"value":"11000-CMEP"
+	},
+	{
+		"desc":"La Lagunita",
+		"value":"11000-CMLL"
+	},
+	{
+		"desc":"Bello Campo",
+		"value":"11000-CMBC"
+	},
+	{
+		"desc":"El Bosque",
+		"value":"11000-CMEB"
+	},
+	{
+		"desc":"Cabudare",
+		"value":"11000-CMCAB"
+	},
+	{
+		"desc":"IPSFA MARACAY",
+		"value":"11000-CMIM"
+	},
+	{
+		"desc":"IPSFA LOS PROCERES",
+		"value":"11000-CMILP"
+	},
+	{
+		"desc":"MARGARITA",
+		"value":"11000-CMABM"
+	},
+	{
+		"desc":"Barcelona",
+		"value":"11000-CMB"
+	},
+	{
+		"desc":"Acarigua",
+		"value":"11000-CMA"
+	},
+	{
+		"desc":"Las Trinitarias",
+		"value":"11000-CMLT"
+	},
+	{
+		"desc":"La Cascada",
+		"value":"11000-CMLC"
+	},
+	{
+		"desc":"Puerto La Cruz",
+		"value":"11000-CMPLC"
+	},
+	{
+		"desc":"El Trigal",
+		"value":"11000-CMET"
+	},
+	{
+		"desc":"Guacara",
+		"value":"11000-CMGUAC"
+	},
+	{
+		"desc":"Naguanagua",
+		"value":"11000-CMN"
+	},
+	{
+		"desc":"El Recreo",
+		"value":"11000-CMER"
+	},
+	{
+		"desc":"Av. Aragua",
+		"value":"11000-CMAA"
+	},
+	{
+		"desc":"Porlamar",
+		"value":"11000-CMP"
+	},
+	{
+		"desc":"Ciudad Bolivar",
+		"value":"11000-CMCB"
+	},
+	{
+		"desc":"Montalban",
+		"value":"11000-CMMO"
+	},
+	{
+		"desc":"Las Delicias",
+		"value":"11000-CMLD"
+	},
+	{
+		"desc":"San Antonio de Los Altos",
+		"value":"11000-CMSADLA"
+	},
+	{
+		"desc":"San Felipe",
+		"value":"11000-CMSF"
+	},
+	{
+		"desc":"San Martin",
+		"value":"11000-CMSM"
+	},
+	{
+		"desc":"La Victoria",
+		"value":"11000-CMLV"
+	},
+	{
+		"desc":"Catia",
+		"value":"11000-CMCA"
+	},
+	{
+		"desc":"La Boyera",
+		"value":"11000-CMLB"
+	},
+	{
+		"desc":"Los Teques",
+		"value":"11000-CMLTE"
+	},
+	{
+		"desc":"La Concordia",
+		"value":"11000-CMLCO"
+	},
+	{
+		"desc":"Av. Bolivar",
+		"value":"11000-CMAB"
+	},
+	{
+		"desc":"La Piramide",
+		"value":"11000-CMLP"
+	},
+	{
+		"desc":"Los Leones",
+		"value":"11000-CMLLE"
+	},
+	{
+		"desc":"La Isabelica",
+		"value":"11000-CMLI"
+	},
+	{
+		"desc":"San Jose",
+		"value":"11000-CMSJ"
+	},
+	{
+		"desc":"Prado de Maria",
+		"value":"11000-CMPDM"
+	},
+	{
+		"desc":"El Marques",
+		"value":"11000-CMEM"
+	},
+	{
+		"desc":"Bello Monte",
+		"value":"11000-CMBM"
+	},
+	{
+		"desc":"Chacaito",
+		"value":"11000-CMCH"
+	},
+	{
+		"desc":"Santa Marta",
+		"value":"11000-CMSM"
+	},
+	{
+		"desc":"Guarenas",
+		"value":"11000-CMGUAR"
+	},
+	{
+		"desc":"Los Ruices",
+		"value":"11000-CMLR"
+	},
+	{
+		"desc":"Plaza Las Americas",
+		"value":"11000-CMPLA"
+	},
+	{
+		"desc":"Av. Presidente Medina",
+		"value":"11000-CMAPM"
+	},
+	{
+		"desc":"La Urbina",
+		"value":"11000-CMLU"
+	}
+]

@@ -1,0 +1,35 @@
+<style>
+		.grid {
+		  position: absolute;
+		  opacity: 1;
+		}
+		.item {
+		  position: absolute;
+		  margin: 12px;
+		  z-index: 1;
+		}
+		.item.muuri-item-hidden {
+		  z-index: 0;
+		}
+		.item.muuri-item-releasing {
+		  z-index: 2;
+		}
+		.item.muuri-item-dragging {
+		  z-index: 3;
+		}
+		.item-content {
+		  position: relative;
+		  cursor: pointer;
+/*		  margin-left:400px;
+		  margin-top:175px;
+*/		}
+		.item-content > img {
+		  display: block;
+		  border-radius: 6px;
+		}
+		.item-content > rex {
+		  display: block;
+		  border-radius: 6px;
+		}
+
+	</style>

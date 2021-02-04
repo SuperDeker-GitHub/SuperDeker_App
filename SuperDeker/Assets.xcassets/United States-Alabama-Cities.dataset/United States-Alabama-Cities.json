@@ -1,0 +1,382 @@
+[
+{
+"id": "42594",
+"name": "Alabaster",
+"state_id": "3919"
+},
+{
+"id": "42595",
+"name": "Albertville",
+"state_id": "3919"
+},
+{
+"id": "42596",
+"name": "Alexander City",
+"state_id": "3919"
+},
+{
+"id": "42597",
+"name": "Anniston",
+"state_id": "3919"
+},
+{
+"id": "42598",
+"name": "Arab",
+"state_id": "3919"
+},
+{
+"id": "42599",
+"name": "Ashville",
+"state_id": "3919"
+},
+{
+"id": "42600",
+"name": "Athens",
+"state_id": "3919"
+},
+{
+"id": "42601",
+"name": "Atmore",
+"state_id": "3919"
+},
+{
+"id": "42602",
+"name": "Auburn",
+"state_id": "3919"
+},
+{
+"id": "42603",
+"name": "Bessemer",
+"state_id": "3919"
+},
+{
+"id": "42604",
+"name": "Birmingham",
+"state_id": "3919"
+},
+{
+"id": "42605",
+"name": "Capshaw",
+"state_id": "3919"
+},
+{
+"id": "42606",
+"name": "Center Point",
+"state_id": "3919"
+},
+{
+"id": "42607",
+"name": "Childersburg",
+"state_id": "3919"
+},
+{
+"id": "42608",
+"name": "Cullman",
+"state_id": "3919"
+},
+{
+"id": "42609",
+"name": "Daleville",
+"state_id": "3919"
+},
+{
+"id": "42610",
+"name": "Daphne",
+"state_id": "3919"
+},
+{
+"id": "42611",
+"name": "Decatur",
+"state_id": "3919"
+},
+{
+"id": "42612",
+"name": "Dothan",
+"state_id": "3919"
+},
+{
+"id": "42613",
+"name": "Enterprise",
+"state_id": "3919"
+},
+{
+"id": "42614",
+"name": "Eufaula",
+"state_id": "3919"
+},
+{
+"id": "42615",
+"name": "Fairfield",
+"state_id": "3919"
+},
+{
+"id": "42616",
+"name": "Fairhope",
+"state_id": "3919"
+},
+{
+"id": "42617",
+"name": "Florence",
+"state_id": "3919"
+},
+{
+"id": "42618",
+"name": "Fort Payne",
+"state_id": "3919"
+},
+{
+"id": "42619",
+"name": "Gadsden",
+"state_id": "3919"
+},
+{
+"id": "42620",
+"name": "Grand Bay",
+"state_id": "3919"
+},
+{
+"id": "42621",
+"name": "Grove Hill",
+"state_id": "3919"
+},
+{
+"id": "42622",
+"name": "Guntersville",
+"state_id": "3919"
+},
+{
+"id": "42623",
+"name": "Hampton Cove",
+"state_id": "3919"
+},
+{
+"id": "42624",
+"name": "Hanceville",
+"state_id": "3919"
+},
+{
+"id": "42625",
+"name": "Hartselle",
+"state_id": "3919"
+},
+{
+"id": "42626",
+"name": "Headland",
+"state_id": "3919"
+},
+{
+"id": "42627",
+"name": "Helena",
+"state_id": "3919"
+},
+{
+"id": "42628",
+"name": "Hodges",
+"state_id": "3919"
+},
+{
+"id": "42629",
+"name": "Homewood",
+"state_id": "3919"
+},
+{
+"id": "42630",
+"name": "Hoover",
+"state_id": "3919"
+},
+{
+"id": "42631",
+"name": "Hueytown",
+"state_id": "3919"
+},
+{
+"id": "42632",
+"name": "Huntsville",
+"state_id": "3919"
+},
+{
+"id": "42633",
+"name": "Jacksonville",
+"state_id": "3919"
+},
+{
+"id": "42634",
+"name": "Jasper",
+"state_id": "3919"
+},
+{
+"id": "42635",
+"name": "Leeds",
+"state_id": "3919"
+},
+{
+"id": "42636",
+"name": "Luverne",
+"state_id": "3919"
+},
+{
+"id": "42637",
+"name": "Madison",
+"state_id": "3919"
+},
+{
+"id": "42638",
+"name": "Mobile",
+"state_id": "3919"
+},
+{
+"id": "42639",
+"name": "Montgomery",
+"state_id": "3919"
+},
+{
+"id": "42640",
+"name": "Mountain Brook",
+"state_id": "3919"
+},
+{
+"id": "42641",
+"name": "Muscle Shoals",
+"state_id": "3919"
+},
+{
+"id": "42642",
+"name": "Northport",
+"state_id": "3919"
+},
+{
+"id": "42643",
+"name": "Notasulga",
+"state_id": "3919"
+},
+{
+"id": "42644",
+"name": "Opelika",
+"state_id": "3919"
+},
+{
+"id": "42645",
+"name": "Oxford",
+"state_id": "3919"
+},
+{
+"id": "42646",
+"name": "Ozark",
+"state_id": "3919"
+},
+{
+"id": "42647",
+"name": "Pelham",
+"state_id": "3919"
+},
+{
+"id": "42648",
+"name": "Pell City",
+"state_id": "3919"
+},
+{
+"id": "42649",
+"name": "Pennsylvania",
+"state_id": "3919"
+},
+{
+"id": "42650",
+"name": "Phenix City",
+"state_id": "3919"
+},
+{
+"id": "42651",
+"name": "Prattville",
+"state_id": "3919"
+},
+{
+"id": "42652",
+"name": "Prichard",
+"state_id": "3919"
+},
+{
+"id": "42653",
+"name": "Ramer",
+"state_id": "3919"
+},
+{
+"id": "42654",
+"name": "Roanoke",
+"state_id": "3919"
+},
+{
+"id": "42655",
+"name": "Saraland",
+"state_id": "3919"
+},
+{
+"id": "42656",
+"name": "Scottsboro",
+"state_id": "3919"
+},
+{
+"id": "42657",
+"name": "Selma",
+"state_id": "3919"
+},
+{
+"id": "42658",
+"name": "Sheffield",
+"state_id": "3919"
+},
+{
+"id": "42659",
+"name": "Smiths",
+"state_id": "3919"
+},
+{
+"id": "42660",
+"name": "Sumiton",
+"state_id": "3919"
+},
+{
+"id": "42661",
+"name": "Sylacauga",
+"state_id": "3919"
+},
+{
+"id": "42662",
+"name": "Talladega",
+"state_id": "3919"
+},
+{
+"id": "42663",
+"name": "Thomasville",
+"state_id": "3919"
+},
+{
+"id": "42664",
+"name": "Trafford",
+"state_id": "3919"
+},
+{
+"id": "42665",
+"name": "Troy",
+"state_id": "3919"
+},
+{
+"id": "42666",
+"name": "Trussville",
+"state_id": "3919"
+},
+{
+"id": "42667",
+"name": "Tuscaloosa",
+"state_id": "3919"
+},
+{
+"id": "42668",
+"name": "Tuskegee",
+"state_id": "3919"
+},
+{
+"id": "42669",
+"name": "Vestavia Hills",
+"state_id": "3919"
+}
+]

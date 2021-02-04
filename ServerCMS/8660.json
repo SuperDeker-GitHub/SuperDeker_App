@@ -1,0 +1,214 @@
+{
+	"name":"Countries",
+	"id":8660,
+	"icon":"8660.png",
+	"markericon": "8660.png",
+	"logs":
+	[
+		{ 
+			"Id": 0,
+			"Desc":"Countries",
+			"Icon":"8660.png",
+			"DCs":
+			[
+				{
+					"Code":"COUNTRY",
+					"Desc":"Country",
+					"tituloDossier":"CountryName",
+					"tituloDC": "ShortName",
+					"default":"false",
+					"req":"false",
+					"fotostatus":"noreq",
+					"concomentario":"false",
+					"NoShow":"true",
+					"AutoSave":"true",
+					"read":["administration"],
+					"new": ["administration"],
+					"edit":["administration"],
+					"DcStructure": 
+					[
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Country Name",
+							"rethead":"CountryName",
+							"type":"Edt",
+							"req": "true",
+							"value":  []
+						},
+						{
+							"desc":"Country Alias",
+							"rethead":"ShortName",
+							"type":"Edt",
+							"req": "false",
+							"value": []
+						},
+						{
+							"desc":"Long Description",
+							"rethead":"LongDescription",
+							"type":"EdtML",
+							"req": "false",
+							"value": []
+						},
+						{
+							"desc":"Ref Level Link",
+							"rethead":"RefLevel",
+							"type":"Edt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Observation",
+							"rethead":"Observation",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						}
+					]
+				},
+				{
+					"Code":"STATE",
+					"Desc":"State",
+					"tituloDC": "Association State",
+					"default":"false",
+					"req":"false",
+					"fotostatus":"noreq",
+					"concomentario":"false",
+					"NoShow":"false",
+					"AutoSave":"true",
+					"read":["administration"],
+					"new": ["administration"],
+					"edit":["administration"],
+					"DcStructure": 
+					[
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Country",
+							"rethead":"CountryName",
+                            "type":"EdtPR",
+							"Source":"thisDossier.COUNTRY.CountryName",
+                            "req": "true",
+                            "value":[]
+                        },
+						{
+							"desc":"State",
+							"rethead":"State",
+							"type":"Edt",
+							"req": "true",
+							"value": []
+						},
+						{
+							"desc":"Short Description",
+							"rethead":"ShortDescription",
+							"type":"Edt",
+							"req": "false",
+							"value": []
+						},
+						{
+							"desc":"Long Description",
+							"rethead":"LongDescription",
+							"type":"EdtML",
+							"req": "false",
+							"value": []
+						},
+						{
+							"desc":"Ref State Link",
+							"rethead":"RefState",
+							"type":"Edt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Observation",
+							"rethead":"Observation",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						}
+					]
+				}
+			]
+		}
+    ]
+}

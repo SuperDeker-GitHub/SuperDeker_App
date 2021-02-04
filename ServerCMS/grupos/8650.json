@@ -1,0 +1,259 @@
+{
+	"name":"Age Levels_DEPRECATED",
+	"id":8650,
+	"icon":"8650.png",
+	"markericon": "8650.png",
+	"logs":
+	[
+		{ 
+			"Id": 0,
+			"Desc":"Age Levels_DEPRECATED",
+			"Icon":"8650.png",
+			"DCs":
+			[
+				{
+					"Code":"COUNTRYAGELEVEL",
+					"Desc":"Country Age Level_DEPRECATED",
+					"tituloDossier":"CountryName",
+					"tituloDC": "CountryName",
+					"default":"false",
+					"req":"false",
+					"fotoreq": "false",
+					"concomentario":"false",
+					"NoShow":"true",
+					"AutoSave":"true",
+					"read":["administration"],
+					"new": ["administration"],
+					"edit":["administration"],
+					"DcStructure": 
+					[
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Country Name",
+							"rethead":"CountryName",
+							"type":"Spin",
+							"req": "true",
+							"Source":"DC.COUNTRY.CountryName",
+							"value": []
+						},
+						{
+							"desc":"Ref Rules Web Link",
+							"rethead":"RefRules",
+							"type":"Edt",
+							"req": "false",
+							"value":["https://www.usahockey.com/rulesandresources"]
+						},
+						{
+							"desc":"Contact Person",
+							"rethead":"Contact",
+							"type":"Edt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Mobile Phone",
+							"rethead":"Mobile",
+							"type":"Telf",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"email",
+							"rethead":"email",
+							"type":"Email",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Observation",
+							"rethead":"Observation",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						}
+					]
+				},
+				{
+					"Code":"AGELEVEL",
+					"Desc":"Age Level_DEPRECATED",
+					"tituloDC": "AgeLevel",
+					"default":"false",
+					"req":"false",
+					"fotostatus":"noreq",
+					"concomentario":"false",
+					"NoShow":"false",
+					"AutoSave":"true",
+					"read":["administration"],
+					"new": ["administration"],
+					"edit":["administration"],
+					"DcStructure": 
+					[
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Country Name",
+							"rethead":"CountryName",
+							"type":"EdtPR",
+							"req": "true",
+							"Source":"thisDossier.COUNTRYAGELEVEL.CountryName",
+							"value": []
+						},
+						{
+							"desc":"Age Level",
+							"rethead":"AgeLevel",
+							"type":"Edt",
+							"req": "true",
+							"value":[]
+						},
+						{
+							"desc":"Short Description",
+							"rethead":"ShortDescription",
+							"type":"Edt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Minimum Age",
+							"rethead":"MinAge",
+							"type":"Num",
+							"req": "true",
+							"value":[]
+						},
+						{
+							"desc":"Max Age",
+							"rethead":"MaxAge",
+							"type":"Num",
+							"req": "true",
+							"value":[]
+						},
+						{
+							"desc":"Ref Level Link",
+							"rethead":"RefLevel",
+							"type":"Edt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Observation",
+							"rethead":"Observation",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						}
+					]
+				}
+			],
+			"Sellos":
+			[
+				{
+					"desc":"Approved",
+					"valor":"1",
+					"src":"assets/sello/Approved.png",
+					"id":"Approved",
+					"read":["administrador"],
+					"new": ["administrador"],
+					"edit":["administrador"]
+				},
+				{
+					"desc":"Rejected",
+					"valor":"2",
+					"src":"assets/sello/Rejected.png",
+					"id":"Rejected",
+					"read":["administrador"],
+					"new": ["administrador"],
+					"edit":["administrador"]
+				},
+				{
+					"desc":"annulled",
+					"valor":"-1",
+					"src":"./assets/sello/annulled.png",
+					"id":"annulled",
+					"read":["administrador"],
+					"new": ["administrador"],
+					"edit":["administrador"]
+				}
+			]
+		}
+    ]
+}

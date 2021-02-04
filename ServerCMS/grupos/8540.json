@@ -1,0 +1,91 @@
+{
+	"name":"App BlockList",
+	"id":8540,
+	"icon":"8540.png",
+	"markericon": "8540.png",
+	"logs":
+	[
+		{ 
+			"Id": 0,
+			"Desc":"App Words BlockList",
+			"Icon":"8540.png",
+			"DCs":
+			[
+				{
+					"Code":"APPBLOCKLIST",
+					"Desc":"App BlockList",
+					"tituloDossier":"WordNotAllowed",
+					"tituloDC": "WordNotAllowed",
+					"default":"false",
+					"req":"false",
+					"fotoreq": "false",
+					"concomentario":"false",
+					"NoShow":"true",
+					"AutoSave":"true",
+					"read":["administration","operator"],
+					"new": ["administration"],
+					"edit":["administration"],
+					"DcStructure": 
+					[
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Enter Word Not Allowed",
+							"rethead":"WordNotAllowed",
+							"type":"Edt",
+							"req": "true",
+							"value":[]
+						},
+						{
+							"desc":"Comment",
+							"rethead":"Comment",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						}
+					]
+				}
+			]
+		}
+    ]
+}

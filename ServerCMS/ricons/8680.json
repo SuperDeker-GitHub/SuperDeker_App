@@ -1,0 +1,237 @@
+{
+	"name":"WordsNotAllowed",
+	"id":8680,
+	"icon":"8680.png",
+	"markericon": "8680.png",
+	"logs":
+	[
+		{ 
+			"Id": 0,
+			"Desc":"WordsNotAllowed",
+			"Icon":"8680.png",
+			"DCs":
+			[
+				{
+					"Code":"BlackList",
+					"Desc":"Words Not Allowed",
+					"tituloDossier":"CountryName",
+					"tituloDC": "WordNotAllowed",
+					"default":"false",
+					"req":"false",
+					"fotoreq": "false",
+					"concomentario":"false",
+					"NoShow":"true",
+					"AutoSave":"true",
+					"read":["administration"],
+					"new": ["administration"],
+					"edit":["administration"],
+					"DcStructure": 
+					[
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Country Name",
+							"rethead":"CountryName",
+							"type":"Spin",
+							"req": "true",
+							"Source":"DC.COUNTRY.CountryName",
+							"value": []
+						},
+						{
+							"desc":"Word Not Allowed",
+							"rethead":"WordNotAllowed",
+							"type":"Edt",
+							"req": "true",
+							"value":[]
+						},
+						{
+							"desc":"Language",
+							"rethead":"Language",
+							"type":"Spin",
+							"req": "true",
+							"value":
+                            [
+                                {
+                                    "desc":"English"
+                                },
+                                {
+                                    "desc":"French"
+                                }
+                            ]
+						},
+						{
+							"desc":"Contact Person",
+							"rethead":"Contact",
+							"type":"Edt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Mobile Phone",
+							"rethead":"Mobile",
+							"type":"Telf",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"email",
+							"rethead":"email",
+							"type":"Email",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Observation",
+							"rethead":"Observation",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						}
+					]
+				},
+				{
+					"Code":"LEVEL",
+					"Desc":"Hockey Level",
+					"tituloDC": "HockeyLevel",
+					"default":"false",
+					"req":"false",
+					"fotostatus":"noreq",
+					"concomentario":"false",
+					"NoShow":"false",
+					"AutoSave":"true",
+					"read":["administration"],
+					"new": ["administration"],
+					"edit":["administration"],
+					"DcStructure": 
+					[
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Country Name",
+							"rethead":"CountryName",
+							"type":"EdtPR",
+							"req": "true",
+							"Source":"thisDossier.COUNTRYLEVEL.CountryName",
+							"value": []
+						},
+						{
+							"desc":"Hockey Level",
+							"rethead":"HockeyLevel",
+							"type":"Edt",
+							"req": "true",
+							"value":[]
+						},
+						{
+							"desc":"Short Description",
+							"rethead":"ShortDescription",
+							"type":"Edt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Long Description",
+							"rethead":"LongDescription",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Ref Level Link",
+							"rethead":"RefLevel",
+							"type":"Edt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Observation",
+							"rethead":"Observation",
+							"type":"Edt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						}
+					]
+				}
+			]
+		}
+    ]
+}

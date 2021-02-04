@@ -1,0 +1,395 @@
+{
+	"name":"CMS_Splash",
+	"id":8600,
+	"icon":"8600.png",
+	"markericon": "8600.png",
+	"logs":
+	[
+		{ 
+			"Id":0,
+			"Desc":"CMS Splash",
+			"Icon":"8600.png",
+			"DCs":
+			[
+				{
+                    "Code":"SPLASH_SCREEN_PERIOD",
+                    "Desc":"Marketing Splash Screen",
+					"tituloDossier":"CountryName",
+					"tituloDC": "Date2Publish - EndingDate",
+					"default":"false",
+					"req":"false",
+					"fotoreq": "false",
+					"concomentario":"false",
+					"NoShow":"true",
+					"AutoSave":"true",
+					"read":["administration"],
+					"new": ["administration"],
+					"edit":["administration"],
+                    "DcStructure": 
+                    [
+                        {
+                            "desc":" ",
+                            "rethead":"",
+                            "type":"Txt",
+                            "req": "false",
+                            "value":[]
+                        },
+                        {
+                            "desc":"",
+                            "rethead":"",
+                            "type":"Separator",
+                            "req": "false",
+                            "value":[]
+                        },
+                        {
+                            "desc":" ",
+                            "rethead":"",
+                            "type":"Txt",
+                            "req": "false",
+                            "value":[]
+                        },
+						{
+							"desc":"Country Name",
+							"rethead":"CountryName",
+							"type":"Spin",
+							"req": "true",
+							"Source":"DC.COUNTRY.CountryName",
+							"value": []
+						},
+                        {
+                            "desc": "STATE/REGION",
+                            "rethead": "StateRegion",
+                            "type": "Edt",
+                            "req": "false",
+                            "value": []
+                        },
+                        {
+                            "desc":" ",
+                            "rethead":"",
+                            "type":"Txt",
+                            "req": "false",
+                            "value":[]
+                        },
+                        {
+                            "desc":"",
+                            "rethead":"",
+                            "type":"Separator",
+                            "req": "false",
+                            "value":[]
+                        },
+                        {
+                            "desc":" ",
+                            "rethead":"",
+                            "type":"Txt",
+                            "req": "false",
+                            "value":[]
+                        },
+                        {
+                            "desc":"Date to Publish",
+                            "rethead":"Date2Publish",
+                            "type":"Date",
+                            "req": "true",											
+                            "value":"now"
+                        },
+                        {
+                            "desc":"Ending Date",
+                            "rethead":"EndingDate",
+                            "type":"Date",
+                            "req": "false",											
+                            "value":"now"
+                        },
+                        {
+                            "desc":" ",
+                            "rethead":"",
+                            "type":"Txt",
+                            "req": "false",
+                            "value":[]
+                        },
+                        {
+                            "desc":"",
+                            "rethead":"",
+                            "type":"Separator",
+                            "req": "false",
+                            "value":[]
+                        },
+                        {
+                            "desc":" ",
+                            "rethead":"",
+                            "type":"Txt",
+                            "req": "false",
+                            "value":[]
+                        }
+                    ]
+                },
+				{
+                    "Code":"SPLASH_SCREEN",
+                    "Desc":"Splash Screen",
+					"tituloDC": "SplashType MarketBlurbShort",
+					"default":"false",
+					"req":"false",
+					"fotoreq": "false",
+					"concomentario":"false",
+					"NoShow":"false",
+					"AutoSave":"true",
+					"read":["administration"],
+					"new": ["administration"],
+					"edit":["administration"],
+                    "DcStructure": 
+                    [
+                        {
+                            "desc":" ",
+                            "rethead":"",
+                            "type":"Txt",
+                            "req": "false",
+                            "value":[]
+                        },
+                        {
+                            "desc":"",
+                            "rethead":"",
+                            "type":"Separator",
+                            "req": "false",
+                            "value":[]
+                        },
+                        {
+                            "desc":" ",
+                            "rethead":"",
+                            "type":"Txt",
+                            "req": "false",
+                            "value":[]
+                        },
+						{
+							"desc":"Country Name",
+							"rethead":"CountryName",
+                            "type":"EdtPR",
+							"Source":"thisDossier.COUNTRY.CountryName",
+                            "req": "false",
+                            "value":[]
+                        },
+                        {
+                            "desc": "STATE/REGION",
+                            "rethead": "StateRegion",
+                            "type": "EdtPR",
+                            "req": "false",
+                            "value": []
+                        },
+                        {
+                            "desc": "Marketing Blurb Title Descrip",
+                            "rethead": "MarketBlurbShort",
+                            "type": "Edt",
+                            "req": "true",
+                            "value": []
+                        },
+                        {
+                            "desc": "Marketing Blurb to Publish",
+                            "rethead": "MarketBlurb2Publ",
+                            "type": "EdtML",
+                            "req": "true",
+                            "value": []
+                        },	
+                        {
+                            "desc": "Web Link",
+                            "rethead": "WebLink",
+                            "type": "Edt",
+                            "req": "false",
+                            "value": []
+                        },
+                        {
+                            "desc":" ",
+                            "rethead":"",
+                            "type":"Txt",
+                            "req": "false",
+                            "value":[]
+                        },
+                        {
+                            "desc":"",
+                            "rethead":"",
+                            "type":"Separator",
+                            "req": "false",
+                            "value":[]
+                        },
+                        {
+                            "desc":" ",
+                            "rethead":"",
+                            "type":"Txt",
+                            "req": "false",
+                            "value":[]
+                        },
+                        {
+                            "desc":"Comment",
+                            "rethead":"Comment",
+                            "type":"EdtML",
+                            "req": "false",
+                            "value":[]
+                        },
+                        {
+                            "desc":"Type of Marketing Splash",
+                            "rethead":"SplashType",
+                            "type":"RadioVC",
+                            "req": "true",
+                            "value":
+                            [
+                                {
+                                    "desc":"Marketing",
+                                    "DcStructure": []
+                                },
+                                {
+                                    "desc":"Welcome",
+                                    "DcStructure": []
+                                },
+                                {
+                                    "desc":"Advertisement",
+                                    "DcStructure": []
+                                },
+                                {
+                                    "desc":"News",
+                                    "DcStructure": []
+                                },
+                                {
+                                    "desc":"GuideLines Rules",
+                                    "DcStructure": []
+                                },
+                                {
+                                    "desc":"Other Splash Type",
+                                    "DcStructure": 
+                                    [
+                                        {
+                                            "desc":"Splash Type",
+                                            "rethead":"SplashType",
+                                            "type":"Edt",
+                                            "req": "true",
+                                            "value":[]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "desc":" ",
+                            "rethead":"",
+                            "type":"Txt",
+                            "req": "false",
+                            "value":[]
+                        },
+                        {
+                            "desc":"",
+                            "rethead":"",
+                            "type":"Separator",
+                            "req": "false",
+                            "value":[]
+                        },
+                        {
+                            "desc":" ",
+                            "rethead":"",
+                            "type":"Txt",
+                            "req": "false",
+                            "value":[]
+                        }
+                    ]
+                },
+				{
+					"Code":"SPLASH_SCREENAPROOVAL",
+					"Desc":"Splash Screen Aprooval",
+					"tituloDC": "AproovalStatus",
+					"default":"false",
+					"req":"false",
+					"fotostatus":"noreq",
+					"concomentario":"false",
+					"NoShow":"false",
+					"AutoSave":"true",
+					"read":["administration"],
+					"new": ["administration"],
+					"edit":["administration"],
+					"DcStructure": 
+					[
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Aprooval Status",
+							"rethead":"AproovalStatus",
+							"type":"EdtPR",
+							"req": "false",
+							"value":"READY FOR APPROVAL"
+						},
+						{
+							"desc":"Comment",
+							"rethead":"Comment",
+							"type":"EdtML",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						}
+					],
+                    "Sellos":
+                    [
+                        {
+                            "desc":"Approved",
+                            "valor":"1",
+                            "src":"assets/sello/Approved.png",
+                            "id":"Approved",
+                            "read":["administration"],
+                            "new": ["administration"],
+                            "edit":["administration"]
+                        },
+                        {
+                            "desc":"Rejected",
+                            "valor":"2",
+                            "src":"assets/sello/Rejected.png",
+                            "id":"Rejected",
+                            "read":["administration"],
+                            "new": ["administration"],
+                            "edit":["administration"]
+                        },
+                        {
+                            "desc":"annulled",
+                            "valor":"-1",
+                            "src":"./assets/sello/annulled.png",
+                            "id":"annulled",
+                            "read":["administration"],
+                            "new": ["administration"],
+                            "edit":["administration"]
+                        }
+                    ]
+				}
+			]
+		}
+	]
+}

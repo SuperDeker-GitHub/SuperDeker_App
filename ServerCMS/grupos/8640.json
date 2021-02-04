@@ -1,0 +1,204 @@
+{
+	"name":"Words BlockList",
+	"id":8640,
+	"icon":"8680.png",
+	"markericon": "8680.png",
+	"logs":
+	[
+		{ 
+			"Id": 0,
+			"Desc":"Words Not Allowed",
+			"Icon":"8680.png",
+			"DCs":
+			[
+				{
+					"Code":"BLACKLIST",
+					"Desc":"Word Restricted",
+					"tituloDossier":"WordNotAllowed Language",
+					"tituloDC": "ÁpprovalRequest ",
+					"default":"false",
+					"req":"false",
+					"fotoreq": "false",
+					"concomentario":"false",
+					"NoShow":"true",
+					"AutoSave":"true",
+					"read":["administration"],
+					"new": ["administration"],
+					"edit":["administration"],
+					"DcStructure": 
+					[
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"Request Type",
+							"rethead":"RequestType",
+							"type":"RadioVC",
+							"req": "true",
+							"value":
+							[
+								{
+									"desc":"ADD REQUEST",
+									"DcStructure": 
+									[
+										{
+											"desc":"Enter Word Not Allowed",
+											"rethead":"WordNotAllowed",
+											"type":"Edt",
+											"req": "true",
+											"value":[]
+										},
+										{
+											"desc":"Language",
+											"rethead":"Language",
+											"type":"Spin",
+											"req": "true",
+											"value":
+											[
+												{
+													"desc":"English"
+												},
+												{
+													"desc":"French"
+												},
+												{
+													"desc":"Danish"
+												},
+												{
+													"desc":"Norwegian"
+												},
+												{
+													"desc":"Russian"
+												}
+											]
+										}
+									]
+								},
+								{
+									"desc":"DEL REQUEST",
+									"DcStructure": 
+									[								
+										{
+											"desc":"Search for Brand",
+											"rethead":"DC.BLACKLIST.WordNotAllowed",
+											"type":"SrcTxt",
+											"req": "false",
+											"value":[]
+										},
+										{
+											"desc":"Enter Word Not Allowed",
+											"rethead":"WordNotAllowed",
+											"type":"EdtPR",
+											"req": "false",
+											"value":[]
+										},
+										{
+											"desc":"Language",
+											"rethead":"Language",
+											"type":"Spin",
+											"req": "false",
+											"value":
+											[
+												{
+													"desc":"English"
+												},
+												{
+													"desc":"French"
+												},
+												{
+													"desc":"Danish"
+												},
+												{
+													"desc":"Norwegian"
+												},
+												{
+													"desc":"Russian"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"desc":"Comment/Reason to Add, Mod or Delete",
+							"rethead":"Comment",
+							"type":"EdtML",
+							"req": "true",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":"",
+							"rethead":"",
+							"type":"Separator",
+							"req": "false",
+							"value":[]
+						},
+						{
+							"desc":" ",
+							"rethead":"",
+							"type":"Txt",
+							"req": "false",
+							"value":[]
+						}
+					],
+                    "Sellos":
+                    [
+                        {
+                            "desc":"Material Prepared For Approval",
+                            "valor":"3",
+                            "src":"assets/sello/MatPrepForApprov.png",
+                            "id":"ForApproval",
+                            "read":["administration"],
+                            "new": ["administration"],
+                            "edit":["administration"]
+                        },
+                        {
+                            "desc":"In Progress",
+                            "valor":"4",
+                            "src":"assets/sello/EnProgreso.png",
+                            "id":"InProgress",
+                            "read":["administration"],
+                            "new": ["administration"],
+                            "edit":["administration"]
+                        },
+                        {
+                            "desc":"annulled",
+                            "valor":"-1",
+                            "src":"./assets/sello/annulled.png",
+                            "id":"annulled",
+                            "read":["administration"],
+                            "new": ["administration"],
+                            "edit":["administration"]
+                        }
+                    ]
+				}
+			]
+		}
+    ]
+}

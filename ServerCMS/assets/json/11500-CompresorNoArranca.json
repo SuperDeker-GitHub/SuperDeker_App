@@ -1,0 +1,34 @@
+[
+	{
+		"desc":"SELECCIONA LA POSIBLE CAUSA",
+		"value":""
+	},
+	{
+		"desc":"Disparado por Dispositivo de Enfriamiento de Cabezal (Demang Cooling).", 
+		"value":"11510-DisaparadoDispositivoEnfriamientoCabezalDC"
+	},
+	{
+		"desc":"Dispar.por Dispos.de Segur.Mecan.de Alta Presion(Presostato de Alta).",  
+		"value":"11520-DisparadoDispositivoSeguridadMecanicoAltaPresionPA"
+	},
+	{
+		"desc":"Direccion de Red de Comunicacion fuera de Linea con el Controlador",
+		"value":"11530-DireccionRedComunicacionFueraLineaControlador"
+	},
+	{
+		"desc":"Salida de rele de Tarjeta de Control en Corto", 
+		"value":"11540-SalidaReleTarjetaControlCorto"
+	},
+	{
+		"desc":"Temporizador Danado",
+		"value":"11550-TemporizadorDanado"
+	},
+	{
+		"desc":"Modulo de Proteccion Interno sin Salida de Tension Electrica.",
+		"value":"11560-ModuloProteccionInternoSinSalidaTensionElectrica"
+	},
+	{
+		"desc":"Contactor sin Salida de Tension Electrica",
+		"value":"11570-ContactorSinSalidaTensionElectrica"
+	}
+]
